@@ -1,0 +1,3394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sixtyfour&display=swap" rel="stylesheet" />
+    <link rel="shortcut icon" type="image/png" href="/images/logo_rond.png"/>
+
+
+    <link rel="stylesheet" href="styles.css" />
+    <title>Tournoi 25 places</title>
+</head>
+
+<body>
+    <section class="main-content flux">
+        <div class="texte">
+            <h1>
+                Tournoi <br />
+                
+            </h1>
+        </div>
+        <div class="top25">
+            <div class="ligne-header ligne">
+                <div class="colonne-headerPseudo">Pseudo</div>
+                <div class="colonne-headerSlot">Slot</div>
+                <div class="colonne-headerGain">Gain</div>
+                <div class="colonne-headerMutli">Multi</div>
+            </div>
+
+            <div class="ligne">
+                <div class="colonnePseudo colonne" data-line="1">
+                    <input type="text" id="participant1" placeholder="Entrez le pseudo 1" list="pseudos" />
+                </div>
+                <div class="colonneSlot colonne" data-line="1">
+                    <input type="text" placeholder="Entrez la slot 1" list="slots" />
+                </div>
+                <div class="colonneGain colonne" data-line="1">
+                    <input type="number" placeholder="Gains" />
+                </div>
+                <div class="colonneMulti colonne" data-line="1"></div>
+            </div>
+
+            <div class="ligne">
+                <div class="colonnePseudo colonne" data-line="2">
+                    <input type="text" id="participant2" placeholder="Entrez le pseudo 2" list="pseudos" />
+                </div>
+                <div class="colonneSlot colonne" data-line="2">
+                    <input type="text" placeholder="Entrez la slot 2" list="slots" />
+                </div>
+                <div class="colonneGain colonne" data-line="2">
+                    <input type="number" placeholder="Gains" />
+                </div>
+                <div class="colonneMulti colonne" data-line="2"></div>
+            </div>
+
+            <div class="ligne">
+                <div class="colonnePseudo colonne" data-line="3">
+                    <input type="text" id="participant3" placeholder="Entrez le pseudo 3" list="pseudos" />
+                </div>
+                <div class="colonneSlot colonne" data-line="3">
+                    <input type="text" placeholder="Entrez la slot 3" list="slots" />
+                </div>
+                <div class="colonneGain colonne" data-line="3">
+                    <input type="number" placeholder="Gains" />
+                </div>
+                <div class="colonneMulti colonne" data-line="3"></div>
+            </div>
+
+            <div class="ligne">
+                <div class="colonnePseudo colonne" data-line="4">
+                    <input type="text" id="participant4" placeholder="Entrez le pseudo 4" list="pseudos" />
+                </div>
+                <div class="colonneSlot colonne" data-line="4">
+                    <input type="text" placeholder="Entrez la slot 4" list="slots" />
+                </div>
+                <div class="colonneGain colonne" data-line="4">
+                    <input type="number" placeholder="Gains" />
+                </div>
+                <div class="colonneMulti colonne" data-line="4"></div>
+            </div>
+
+            <div class="ligne">
+                <div class="colonnePseudo colonne" data-line="5">
+                    <input type="text" id="participant5" placeholder="Entrez le pseudo 5" list="pseudos" />
+                </div>
+                <div class="colonneSlot colonne" data-line="5">
+                    <input type="text" placeholder="Entrez la slot 5" list="slots" />
+                </div>
+                <div class="colonneGain colonne" data-line="5">
+                    <input type="number" placeholder="Gains" />
+                </div>
+                <div class="colonneMulti colonne" data-line="5"></div>
+            </div>
+
+            <div class="ligne">
+                <div class="colonnePseudo colonne" data-line="6">
+                    <input type="text" id="participant6" placeholder="Entrez le pseudo 6" list="pseudos" />
+                </div>
+                <div class="colonneSlot colonne" data-line="6">
+                    <input type="text" placeholder="Entrez la slot 6" list="slots" />
+                </div>
+                <div class="colonneGain colonne" data-line="6">
+                    <input type="number" placeholder="Gains" />
+                </div>
+                <div class="colonneMulti colonne" data-line="6"></div>
+            </div>
+
+            <div class="ligne">
+                <div class="colonnePseudo colonne" data-line="7">
+                    <input type="text" id="participant7" placeholder="Entrez le pseudo 7" list="pseudos" />
+                </div>
+                <div class="colonneSlot colonne" data-line="7">
+                    <input type="text" placeholder="Entrez la slot 7" list="slots" />
+                </div>
+                <div class="colonneGain colonne" data-line="7">
+                    <input type="number" placeholder="Gains" />
+                </div>
+                <div class="colonneMulti colonne" data-line="7"></div>
+            </div>
+
+            <div class="ligne">
+                <div class="colonnePseudo colonne" data-line="8">
+                    <input type="text" id="participant8" placeholder="Entrez le pseudo 8" list="pseudos" />
+                </div>
+                <div class="colonneSlot colonne" data-line="8">
+                    <input type="text" placeholder="Entrez la slot 8" list="slots" />
+                </div>
+                <div class="colonneGain colonne" data-line="8">
+                    <input type="number" placeholder="Gains" />
+                </div>
+                <div class="colonneMulti colonne" data-line="8"></div>
+            </div>
+
+            <div class="ligne">
+                <div class="colonnePseudo colonne" data-line="9">
+                    <input type="text" id="participant9" placeholder="Entrez le pseudo 9" list="pseudos" />
+                </div>
+                <div class="colonneSlot colonne" data-line="9">
+                    <input type="text" placeholder="Entrez la slot 9" list="slots" />
+                </div>
+                <div class="colonneGain colonne" data-line="9">
+                    <input type="number" placeholder="Gains" />
+                </div>
+                <div class="colonneMulti colonne" data-line="9"></div>
+            </div>
+
+            <div class="ligne">
+                <div class="colonnePseudo colonne" data-line="10">
+                    <input type="text" id="participant10" placeholder="Entrez le pseudo 10" list="pseudos" />
+                </div>
+                <div class="colonneSlot colonne" data-line="10">
+                    <input type="text" placeholder="Entrez la slot 10" list="slots" />
+                </div>
+                <div class="colonneGain colonne" data-line="10">
+                    <input type="number" placeholder="Gains" />
+                </div>
+                <div class="colonneMulti colonne" data-line="10"></div>
+            </div>
+
+            <div class="ligne">
+                <div class="colonnePseudo colonne" data-line="11">
+                    <input type="text" id="participant11" placeholder="Entrez le pseudo 11" list="pseudos" />
+                </div>
+                <div class="colonneSlot colonne" data-line="11">
+                    <input type="text" placeholder="Entrez la slot 11" list="slots" />
+                </div>
+                <div class="colonneGain colonne" data-line="11">
+                    <input type="number" placeholder="Gains" />
+                </div>
+                <div class="colonneMulti colonne" data-line="11"></div>
+            </div>
+
+            <div class="ligne">
+                <div class="colonnePseudo colonne" data-line="12">
+                    <input type="text" id="participant12" placeholder="Entrez le pseudo 12" list="pseudos" />
+                </div>
+                <div class="colonneSlot colonne" data-line="12">
+                    <input type="text" placeholder="Entrez la slot 12"  list="slots"/>
+                </div>
+                <div class="colonneGain colonne" data-line="12">
+                    <input type="number" placeholder="Gains" />
+                </div>
+                <div class="colonneMulti colonne" data-line="12"></div>
+            </div>
+
+            <div class="ligne">
+                <div class="colonnePseudo colonne" data-line="13">
+                    <input type="text" id="participant13" placeholder="Entrez le pseudo 13" list="pseudos" />
+                </div>
+                <div class="colonneSlot colonne" data-line="13">
+                    <input type="text" placeholder="Entrez la slot 13" list="slots" />
+                </div>
+                <div class="colonneGain colonne" data-line="13">
+                    <input type="number" placeholder="Gains" />
+                </div>
+                <div class="colonneMulti colonne" data-line="13"></div>
+            </div>
+
+            <div class="ligne">
+                <div class="colonnePseudo colonne" data-line="14">
+                    <input type="text" id="participant14" placeholder="Entrez le pseudo 14" list="pseudos" />
+                </div>
+                <div class="colonneSlot colonne" data-line="14">
+                    <input type="text" placeholder="Entrez la slot 14" list="slots" />
+                </div>
+                <div class="colonneGain colonne" data-line="14">
+                    <input type="number" placeholder="Gains" />
+                </div>
+                <div class="colonneMulti colonne" data-line="14"></div>
+            </div>
+
+            <div class="ligne">
+                <div class="colonnePseudo colonne" data-line="15">
+                    <input type="text" id="participant15" placeholder="Entrez le pseudo 15" list="pseudos" />
+                </div>
+                <div class="colonneSlot colonne" data-line="15">
+                    <input type="text" placeholder="Entrez la slot 15" list="slots" />
+                </div>
+                <div class="colonneGain colonne" data-line="15">
+                    <input type="number" placeholder="Gains" />
+                </div>
+                <div class="colonneMulti colonne" data-line="15"></div>
+            </div>
+
+            <div class="ligne">
+                <div class="colonnePseudo colonne" data-line="16">
+                    <input type="text" id="participant16" placeholder="Entrez le pseudo 16" list="pseudos" />
+                </div>
+                <div class="colonneSlot colonne" data-line="16">
+                    <input type="text" placeholder="Entrez la slot 16" list="slots" />
+                </div>
+                <div class="colonneGain colonne" data-line="16">
+                    <input type="number" placeholder="Gains" />
+                </div>
+                <div class="colonneMulti colonne" data-line="16"></div>
+            </div>
+
+            <div class="ligne">
+                <div class="colonnePseudo colonne" data-line="17">
+                    <input type="text" id="participant17" placeholder="Entrez le pseudo 17" list="pseudos" />
+                </div>
+                <div class="colonneSlot colonne" data-line="17">
+                    <input type="text" placeholder="Entrez la slot 17" list="slots" />
+                </div>
+                <div class="colonneGain colonne" data-line="17">
+                    <input type="number" placeholder="Gains" />
+                </div>
+                <div class="colonneMulti colonne" data-line="17"></div>
+            </div>
+
+            <div class="ligne">
+                <div class="colonnePseudo colonne" data-line="18">
+                    <input type="text" id="participant18" placeholder="Entrez le pseudo 18" list="pseudos" />
+                </div>
+                <div class="colonneSlot colonne" data-line="18">
+                    <input type="text" placeholder="Entrez la slot 18" list="slots" />
+                </div>
+                <div class="colonneGain colonne" data-line="18">
+                    <input type="number" placeholder="Gains" />
+                </div>
+                <div class="colonneMulti colonne" data-line="18"></div>
+            </div>
+
+            <div class="ligne">
+                <div class="colonnePseudo colonne" data-line="19">
+                    <input type="text" id="participant19" placeholder="Entrez le pseudo 19" list="pseudos" />
+                </div>
+                <div class="colonneSlot colonne" data-line="19">
+                    <input type="text" placeholder="Entrez la slot 19" list="slots" />
+                </div>
+                <div class="colonneGain colonne" data-line="19">
+                    <input type="number" placeholder="Gains" />
+                </div>
+                <div class="colonneMulti colonne" data-line="19"></div>
+            </div>
+
+            <div class="ligne">
+                <div class="colonnePseudo colonne" data-line="20">
+                    <input type="text" id="participant20" placeholder="Entrez le pseudo 20" list="pseudos" />
+                </div>
+                <div class="colonneSlot colonne" data-line="20">
+                    <input type="text" placeholder="Entrez la slot 20" list="slots" />
+                </div>
+                <div class="colonneGain colonne" data-line="20">
+                    <input type="number" placeholder="Gains" />
+                </div>
+                <div class="colonneMulti colonne" data-line="20"></div>
+            </div>
+
+            <div class="ligne">
+                <div class="colonnePseudo colonne" data-line="21">
+                    <input type="text" id="participant21" placeholder="Entrez le pseudo 21" list="pseudos" />
+                </div>
+                <div class="colonneSlot colonne" data-line="21">
+                    <input type="text" placeholder="Entrez la slot 21" list="slots" />
+                </div>
+                <div class="colonneGain colonne" data-line="21">
+                    <input type="number" placeholder="Gains" />
+                </div>
+                <div class="colonneMulti colonne" data-line="21"></div>
+            </div>
+
+            <div class="ligne">
+                <div class="colonnePseudo colonne" data-line="22">
+                    <input type="text" id="participant22" placeholder="Entrez le pseudo 22" list="pseudos" />
+                </div>
+                <div class="colonneSlot colonne" data-line="22">
+                    <input type="text" placeholder="Entrez la slot 22" list="slots" />
+                </div>
+                <div class="colonneGain colonne" data-line="22">
+                    <input type="number" placeholder="Gains" />
+                </div>
+                <div class="colonneMulti colonne" data-line="22"></div>
+            </div>
+
+            <div class="ligne">
+                <div class="colonnePseudo colonne" data-line="23">
+                    <input type="text" id="participant23" placeholder="Entrez le pseudo 23" list="pseudos" />
+                </div>
+                <div class="colonneSlot colonne" data-line="23">
+                    <input type="text" placeholder="Entrez la slot 23" list="slots" />
+                </div>
+                <div class="colonneGain colonne" data-line="23">
+                    <input type="number" placeholder="Gains" />
+                </div>
+                <div class="colonneMulti colonne" data-line="23"></div>
+            </div>
+
+            <div class="ligne">
+                <div class="colonnePseudo colonne" data-line="24">
+                    <input type="text" id="participant24" placeholder="Entrez le pseudo 24" list="pseudos" />
+                </div>
+                <div class="colonneSlot colonne" data-line="24">
+                    <input type="text" placeholder="Entrez la slot 24" list="slots" />
+                </div>
+                <div class="colonneGain colonne" data-line="24">
+                    <input type="number" placeholder="Gains" />
+                </div>
+                <div class="colonneMulti colonne" data-line="24"></div>
+            </div>
+
+            <div class="ligne">
+                <div class="colonnePseudo colonne" data-line="25">
+                    <input type="text" id="participant25" placeholder="Entrez le pseudo 25" list="pseudos" />
+                </div>
+                <div class="colonneSlot colonne" data-line="25">
+                    <input type="text" placeholder="Entrez la slot 25" list="slots" />
+                </div>
+                <div class="colonneGain colonne" data-line="25">
+                    <input type="number" placeholder="Gains" />
+                </div>
+                <div class="colonneMulti colonne" data-line="25"></div>
+            </div>
+        </div>
+        <div class="boutons">
+            <button class="btn" id="boutonTri">TOP 8</a>
+            <button class="btn" id="boutonRemplir">REMPLIR ARBRE</a>
+            <button class="btn" id="boutonReset">RESET</a>
+        </div>
+    </section>
+
+    <section class="cut-section flux" id="section44">
+        <h2>PHASES FINALES</h2>
+    </section>
+
+    <section class="flux arbre-section ">
+        <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
+        <div class="arbre-gauche">
+            <div class="quart1">
+                <div class="participant1">
+                    <div id="gagnant1" class="colonneArbreText"><span id="pseudoGagnant1"></span></div>
+                    <div class="colonneArbreText2"><input type="text" placeholder="Entrez une slot" list="slots" /></div>
+                    <div class="colonneArbreNumber gainArbre" id="gain1"><input type="number" class="gain" placeholder="Gains" /></div>
+                    <div class="colonneArbreNumber multiArbre"></div>
+                </div>
+
+                <div class="participant2">
+                    <div id="gagnant2" class="colonneArbreText"><span id="pseudoGagnant2"></span></div>
+                    <div class="colonneArbreText2"><input type="text" placeholder="Entrez une slot" list="slots" /></div>
+                    <div class="colonneArbreNumber gainArbre" id="gain2"><input type="number" class="gain" placeholder="Gains" /></div>
+                    <div class="colonneArbreNumber multiArbre"></div>
+                </div>
+            </div>
+
+            <div class="demi12">
+                <div class="demi1">
+                    <div id="gagnant9" class="colonneArbreText"><span id="pseudoGagnant9"></span></div>
+                    <div class="colonneArbreText2"><input type="text" placeholder="Entrez une slot" list="slots" /></div>
+                    <div class="colonneArbreNumber gainArbre" id="gain9"><input type="number" class="gain" placeholder="Gains" /></div>
+                    <div class="colonneArbreNumber multiArbre"></div>
+                </div>
+
+                <div class="demi2">
+                    <div id="gagnant10" class="colonneArbreText"><span id="pseudoGagnant10"></span></div>
+                    <div class="colonneArbreText2"><input type="text" placeholder="Entrez une slot" list="slots" /></div>
+                    <div class="colonneArbreNumber gainArbre" id="gain10"><input type="number" class="gain" placeholder="Gains" /></div>
+                    <div class="colonneArbreNumber multiArbre"></div>
+                </div>
+            </div>
+
+            <div class="quart2">
+                <div class="participant3">
+                    <div id="gagnant3" class="colonneArbreText"><span id="pseudoGagnant3"></span></div>
+                    <div class="colonneArbreText2"><input type="text" placeholder="Entrez une slot" list="slots" /></div>
+                    <div class="colonneArbreNumber gainArbre"id="gain3"><input type="number" class="gain" placeholder="Gains" /></div>
+                    <div class="colonneArbreNumber multiArbre"></div>
+                </div>
+
+                <div class="participant4">
+                    <div id="gagnant4" class="colonneArbreText"><span id="pseudoGagnant4"></span></div>
+                    <div class="colonneArbreText2"><input type="text" placeholder="Entrez une slot" list="slots" /></div>
+                    <div class="colonneArbreNumber gainArbre"id="gain4"><input type="number" class="gain" placeholder="Gains" /></div>
+                    <div class="colonneArbreNumber multiArbre"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="finale">
+            <div class="finale1">
+                <div id="gagnant13" class="colonneArbreText"><span id="pseudoGagnant13"></span></div>
+                <div class="colonneArbreText2"><input type="text" placeholder="Entrez une slot" list="slots" /></div>
+                <div class="colonneArbreNumber gainArbre2"id="gain13"><input type="number" class="gain" placeholder="Gains" /></div>
+                <div class="colonneArbreNumber multiArbre2"></div>
+            </div>
+
+            <div class="finale2">
+                <div id="gagnant14" class="colonneArbreText"><span id="pseudoGagnant14"></span></div>
+                <div class="colonneArbreText2"><input type="text" placeholder="Entrez une slot" list="slots" /></div>
+                <div class="colonneArbreNumber gainArbre2"id="gain14"><input type="number" class="gain" placeholder="Gains" /></div>
+                <div class="colonneArbreNumber multiArbre2"></div>
+            </div>
+        </div>
+
+        <div class="arbre-droite">
+            <div class="quart3">
+                <div class="participant1">
+                    <div id="gagnant5" class="colonneArbreText"><span id="pseudoGagnant5"></span></div>
+                    <div class="colonneArbreText2"><input type="text" placeholder="Entrez une slot" list="slots" /></div>
+                    <div class="colonneArbreNumber gainArbre"id="gain5"><input type="number" class="gain" placeholder="Gains" /></div>
+                    <div class="colonneArbreNumber multiArbre"></div>
+                </div>
+
+                <div class="participant2">
+                    <div id="gagnant6" class="colonneArbreText"><span id="pseudoGagnant6"></span></div>
+                    <div class="colonneArbreText2"><input type="text" placeholder="Entrez une slot" list="slots" /></div>
+                    <div class="colonneArbreNumber gainArbre"id="gain6"><input type="number" class="gain" placeholder="Gains" /></div>
+                    <div class="colonneArbreNumber multiArbre"></div>
+                </div>
+            </div>
+
+            <div class="demi34">
+                <div class="demi3">
+                    <div id="gagnant11" class="colonneArbreText"><span id="pseudoGagnant11"></span></div>
+                    <div class="colonneArbreText2"><input type="text" placeholder="Entrez une slot" list="slots" /></div>
+                    <div class="colonneArbreNumber gainArbre"id="gain11"><input type="number" class="gain" placeholder="Gains" /></div>
+                    <div class="colonneArbreNumber multiArbre"></div>
+                </div>
+
+                <div class="demi4">
+                    <div id="gagnant12" class="colonneArbreText"><span id="pseudoGagnant12"></span></div>
+                    <div class="colonneArbreText2"><input type="text" placeholder="Entrez une slot" list="slots" /></div>
+                    <div class="colonneArbreNumber gainArbre"id="gain12"><input type="number" class="gain" placeholder="Gains" /></div>
+                    <div class="colonneArbreNumber multiArbre"></div>
+                </div>
+            </div>
+
+            <div class="quart4">
+                <div class="participant3">
+                    <div id="gagnant7" class="colonneArbreText"><span id="pseudoGagnant7"></span></div>
+                    <div class="colonneArbreText2"><input type="text" placeholder="Entrez une slot" list="slots" /></div>
+                    <div class="colonneArbreNumber gainArbre"id="gain7"><input type="number" class="gain" placeholder="Gains" /></div>
+                    <div class="colonneArbreNumber multiArbre"></div>
+                </div>
+
+                <div class="participant4">
+                    <div id="gagnant8" class="colonneArbreText"><span id="pseudoGagnant8"></span></div>
+                    <div class="colonneArbreText2"><input type="text" placeholder="Entrez une slot" list="slots" /></div>
+                    <div class="colonneArbreNumber gainArbre"id="gain8"><input type="number" class="gain" placeholder="Gains" /></div>
+                    <div class="colonneArbreNumber multiArbre"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <datalist id="pseudos">
+        <option value="xdr_habbibbii">
+            <option value="xdr_celine72220">
+            <option value="tedfr51">
+            <option value="FrRomain">
+            <option value="mvs_destrutwitch67">
+            <option value="SoGameuse">
+            <option value="beni39000">
+            <option value="DocteurV">
+            <option value="dudu50100">
+            <option value="pierrodu42400">
+            <option value="xdr_papatrun9135">
+            <option value="Deadbullfana">
+            <option value="xdr_lagriffe76730">
+            <option value="xdr_lauvergnat">
+            <option value="lecoach">
+            <option value="jeromelechtimi">
+            <option value="put4tasimone64">
+            <option value="Vause">
+            <option value="dinoooo54">
+            <option value="pinocchiooooooo">
+            <option value="xdr_jedispin53">
+            <option value="xdr_leptikir">
+            <option value="xdr_asuna">
+            <option value="zk_nourss1012">
+            <option value="xdr_ddk">
+            <option value="leobrizou">
+            <option value="8hvdes">
+            <option value="xdr_misterazze">
+            <option value="massie666">
+            <option value="xdr_borges77390">
+            <option value="zpatopt1">
+            <option value="xdr_shivaa83">
+            <option value="mariez28">
+            <option value="juna_mela">
+            <option value="manylebidou">
+            <option value="poukeweed">
+            <option value="richemonts">
+            <option value="xdr_tenzaa">
+            <option value="traleck_tv">
+            <option value="xdr_bigoud766">
+            <option value="kywaz">
+            <option value="cmb_idonkair">
+            <option value="xdr_andydu54">
+            <option value="xdr_bl4ckk">
+            <option value="katsiko8">
+            <option value="spofoh">
+            <option value="xdr_stephanedtc">
+            <option value="panda61800">
+            <option value="consumed83">
+            <option value="xdr_nox">
+            <option value="lezouavesn1">
+            <option value="papa_chacha282008">
+            <option value="7bvllet">
+            <option value="chrizz_matheo">
+            <option value="Jeremd7">
+            <option value="livyatan88">
+            <option value="lea776">
+            <option value="selmack460">
+            <option value="xdr_vivi88">
+            <option value="alexandr_0211">
+            <option value="sachaskel">
+            <option value="haeko77">
+            <option value="lmspidey">
+            <option value="SlasherG6">
+            <option value="y0diee">
+            <option value="hirrow">
+            <option value="glyver">
+            <option value="naytuuu">
+            <option value="ibradu06">
+            <option value="pesnilio">
+            <option value="nsk_nesquik21">
+            <option value="samfab">
+            <option value="freakybabetv">
+            <option value="lafoxe">
+            <option value="tiago69510">
+            <option value="oly2913">
+            <option value="xdr_floshelby">
+            <option value="hadesjackbauer">
+            <option value="momo27k">
+            <option value="tvpscorpion">
+            <option value="stylinski">
+            <option value="sergnal">
+            <option value="24_7_chatting_on_discord">
+            <option value="misscat1201">
+            <option value="xdr_abby">
+            <option value="chacha1521">
+            <option value="nqhhhh">
+            <option value="cptnaltir">
+            <option value="atks_biz">
+            <option value="foufouguel">
+            <option value="jejelol067">
+            <option value="pacolinho33">
+            <option value="leonnngg">
+            <option value="lmtv">
+            <option value="steven24nowl">
+            <option value="markzynk">
+            <option value="feelsgoodmanlongusernames">
+            <option value="potatomalonettv">
+            <option value="ninog20">
+            <option value="jeeyce_">
+            <option value="aouaiouaiouaii">
+            <option value="nunuddr">
+            <option value="drezyy_69">
+            <option value="zorhoo">
+            <option value="styfleur88">
+            <option value="tw_saam62120">
+            <option value="39sear">
+            <option value="tartibiscotte">
+            <option value="munez17">
+            <option value="hajime_ly">
+            <option value="xdr_kerroy89">
+            <option value="aiekike">
+            <option value="spykatra">
+            <option value="ninis16_et_samarie">
+            <option value="hela__">
+            <option value="bubu____42">
+            <option value="lepoilu_62">
+            <option value="tpfcaro">
+            <option value="mariejsm">
+            <option value="clipperark">
+            <option value="ZombieOrNot">
+            <option value="lilou24200">
+            <option value="zohakuten97410">
+            <option value="icemaanx1">
+            <option value="apache8100">
+            <option value="lunsiaa">
+            <option value="escanouney">
+            <option value="noam130918">
+            <option value="hmb_pedrosa44">
+            <option value="miloshaka">
+            <option value="Xioniix_tv">
+            <option value="overdozzetv">
+            <option value="raton_stephanie2010">
+    </datalist>
+
+    <datalist id="slots">
+        <option value="1 Million Megaways Bc">
+            <option value="100 Spinning Dice">
+            <option value="108 Heroes Multiplier Fortunes">
+            <option value="15 Crystal Roses - A Tale of Love">
+            <option value="2 Million Bc">
+            <option value="2016 Gladiators">
+            <option value="2020 Hit Slot">
+            <option value="2027 Iss">
+            <option value="243 Crystal Fruits">
+            <option value="24K Dragon">
+            <option value="3 Charms Crush">
+            <option value="3 Clown Monty">
+            <option value="3 Genies Wishes">
+            <option value="3 Hit Pay">
+            <option value="3 Kingdoms Battle of Red Cliffs">
+            <option value="300 Shields Extreme">
+            <option value="3888 Ways">
+            <option value="4 Deals With The Devil">
+            <option value="4 Fantastic Fish">
+            <option value="4 Horsemen">
+            <option value="4 Lucky Pin Ups">
+            <option value="4 of A King">
+            <option value="4 Seasons">
+            <option value="4 Symbols">
+            <option value="4 Winning Directions">
+            <option value="40 Lucky Fruits">
+            <option value="5 Dragon">
+            <option value="5 Lions">
+            <option value="5 Lions Gold">
+            <option value="5 Lions Megaways">
+            <option value="5X Magic">
+            <option value="60 Second Heist">
+            <option value="7 Bonus Up!">
+            <option value="7 Gold Gigablox">
+            <option value="7 Mirrors">
+            <option value="7 Monkeys">
+            <option value="7 Piggies">
+            <option value="7 Sins">
+            <option value="777 Slot">
+            <option value="7Th Heaven">
+            <option value="8 Dragons">
+            <option value="8 Lucky Charms">
+            <option value="8 Lucky Charms Xtreme">
+            <option value="88 Fortune Cats">
+            <option value="88 Lucky Charms">
+            <option value="88 Lucky Fortunes">
+            <option value="88 Riches">
+            <option value="888 Dragons">
+            <option value="888 Gold">
+            <option value="9 Figures Club">
+            <option value="9 Lions">
+            <option value="9 Masks of Fire">
+            <option value="9 Pots of Gold">
+            <option value="90K Yeti Gigablox">
+            <option value="9K Yeti">
+            <option value="A Carol">
+            <option value="A Carol Megaways">
+            <option value="A In Paris">
+            <option value="A Pirates Quest">
+            <option value="Absolute Super Reels">
+            <option value="Abundance Spell">
+            <option value="Ace of Spades">
+            <option value="Ace Round">
+            <option value="Aeronauts">
+            <option value="African Quest">
+            <option value="African Sunset">
+            <option value="After Night Falls">
+            <option value="Age of Asgard">
+            <option value="Age of Discovery">
+            <option value="Agent Destiny">
+            <option value="Agent of Hearts">
+            <option value="Aladdin And the Sorcerer">
+            <option value="Aladdins Treasure">
+            <option value="Alchymedes">
+            <option value="Aldo'S Journey">
+            <option value="Alexandria Fire">
+            <option value="Alice Adventure">
+            <option value="Alice And the Red Queen">
+            <option value="Alice Cooper And the Tome of Madness">
+            <option value="Alice In Wonderland">
+            <option value="Alkemors Tower">
+            <option value="All Star Knockout">
+            <option value="Almighty Sparta">
+            <option value="Aloha Cluster Pays">
+            <option value="Alpha Eagle">
+            <option value="Amazing Aztecs">
+            <option value="Amazing Money Machine">
+            <option value="Ambiance">
+            <option value="Amigos Fiesta">
+            <option value="Amulet of the Dead ">
+            <option value="Ancient Egypt">
+            <option value="Ancient Egypt">
+            <option value="Ancient Egypt Classic">
+            <option value="Ancient Gong">
+            <option value="Ancient Magic">
+            <option value="Ancient Riches">
+            <option value="Ancient Riches Red Hot Fire Pot">
+            <option value="Ancient Script">
+            <option value="Ancient Secrets">
+            <option value="Ancient Troy">
+            <option value="Ancient Troy Dice">
+            <option value="Anderthals">
+            <option value="Animal Madness">
+            <option value="Ankh of Anubis">
+            <option value="Annihilator">
+            <option value="Arabian Spins">
+            <option value="Arcade">
+            <option value="Arcade Bomb">
+            <option value="Arcane Reel Chaos">
+            <option value="Archangels Salvation">
+            <option value="Arctic Adventures">
+            <option value="Arctic Magic">
+            <option value="Arctic Sorcerer Gigablox">
+            <option value="Ariana">
+            <option value="Ark of Mystery">
+            <option value="Arrival">
+            <option value="Artemis Vs Medusa">
+            <option value="Arthur'S Fortune">
+            <option value="Asgard">
+            <option value="Asgardian Stones">
+            <option value="Asia Wins">
+            <option value="Astro Legends">
+            <option value="Astro Magic">
+            <option value="At the Copa">
+            <option value="At the Movies">
+            <option value="Athena Ascending">
+            <option value="Atlantean Gigarise">
+            <option value="Atlantean Mega Moolah">
+            <option value="Atlantic Treasures">
+            <option value="Atlantis">
+            <option value="Atlantis Wilds">
+            <option value="Atlantis World">
+            <option value="Aura of Jupiter">
+            <option value="Aura of Jupiter Crazy Chicken Shooter">
+            <option value="Aus Dem Tal">
+            <option value="Avalon">
+            <option value="Avalon Scratch">
+            <option value="Avalon the Grail">
+            <option value="Awesome Penguin">
+            <option value="Azrabah Wishes">
+            <option value="Aztec Adventure">
+            <option value="Aztec Blaze">
+            <option value="Aztec Bonanza">
+            <option value="Aztec Gems">
+            <option value="Aztec Gold Megaways">
+            <option value="Aztec Idols">
+            <option value="Aztec Idols ">
+            <option value="Aztec Magic Megaways">
+            <option value="Aztec Palace">
+            <option value="Aztec Secrets">
+            <option value="Aztec Temple Treasures">
+            <option value="Aztec Treasure ">
+            <option value="Aztec Treasures">
+            <option value="Aztec Twist">
+            <option value="Aztec Wilds">
+            <option value="Aztecos">
+            <option value="Azticons Chaos Clusters">
+            <option value="Baba Yaga Tales">
+            <option value="Baby Bloomers">
+            <option value="Baby Pet">
+            <option value="Bachelorette Party">
+            <option value="Back To the 70'S">
+            <option value="Baker'S Treat">
+            <option value="Bamboo Rush">
+            <option value="Banana Drop">
+            <option value="Banana Rock">
+            <option value="Banana Town">
+            <option value="Banana Town">
+            <option value="Bandits Thunder Link">
+            <option value="Bar Bar Blacksheep">
+            <option value="Barbarian Fury">
+            <option value="Barbary Coast">
+            <option value="Barn Festival">
+            <option value="Baron Bloodmore">
+            <option value="Baron Samedi">
+            <option value="Bars & 7S">
+            <option value="Basic Instinct">
+            <option value="Basketball">
+            <option value="Basketball Star">
+            <option value="Battle For Atlantis">
+            <option value="Battle For Cosmos">
+            <option value="Battle Maidens">
+            <option value="Battle Royal">
+            <option value="Battle Tanks">
+            <option value="Battleship Direct Hit">
+            <option value="Beach Party">
+            <option value="Beach Party Hot">
+            <option value="Beast Mode">
+            <option value="Beast of Wealt">
+            <option value="Beasts of Fire">
+            <option value="Beastwood">
+            <option value="Beat Box">
+            <option value="Beat the Beast Griffin'S Gold">
+            <option value="Beat the Beast Kraken'S Lair">
+            <option value="Beat the Beast Mighty Sphinx">
+            <option value="Beat the Beast Quetzalcoatl'S Trial">
+            <option value="Beautiful Bones">
+            <option value="Beautiful Nature">
+            <option value="Beauty Fruity">
+            <option value="Beauty the Beast">
+            <option value="Beer Bonanza">
+            <option value="Beer Party">
+            <option value="Beetle Jewels">
+            <option value="Bell of Fortune">
+            <option value="Bell Wizard">
+            <option value="Beowulf">
+            <option value="Bermuda Riches ">
+            <option value="Berryburst">
+            <option value="Berryburst Max">
+            <option value="Best In Life">
+            <option value="Best York Food">
+            <option value="Beverly Hills">
+            <option value="Bewitched">
+            <option value="Bicicleta">
+            <option value="Big Apple Wins">
+            <option value="Big Bad Wolf">
+            <option value="Big Bad Wolf Megaways">
+            <option value="Big Bamboo">
+            <option value="Big Bass Bonanza">
+            <option value="Big Bass Bonanza Christmas">
+            <option value="Big Bass Bonanza Keeping It Reel">
+            <option value="Big Bass Bonanza Megaways">
+            <option value="Big Bass Splash">
+            <option value="Big Big Win 777">
+            <option value="Big Blox">
+            <option value="Big Bot Crew">
+            <option value="Big Bucks Bandit Megaways">
+            <option value="Big Cat King Megaways">
+            <option value="Big Juan">
+            <option value="Big Top">
+            <option value="Big Win Cat">
+            <option value="Bigger Bass Bonanza">
+            <option value="Bikers Gang">
+            <option value="Bikini Beach">
+            <option value="Bikini Party">
+            <option value="Birds">
+            <option value="Birthday Da Birthday">
+            <option value="Bison Battle">
+            <option value="Black Beauty">
+            <option value="Black Bull">
+            <option value="Black Gold">
+            <option value="Black Gold 2 Megaways">
+            <option value="Black Gold Megaways">
+            <option value="Black Hawk">
+            <option value="Black Hawk Deluxe">
+            <option value="Black Horse">
+            <option value="Black Mamba">
+            <option value="Black Mummy">
+            <option value="Blackbeard Compass">
+            <option value="Blackbeard'S Quest">
+            <option value="Blackbeard'S Quest Mini">
+            <option value="Blackjack">
+            <option value="Blast Boom Bang">
+            <option value="Blaze of Ra">
+            <option value="Blazing 7S">
+            <option value="Blazing Tires">
+            <option value="Blessing Mouse">
+            <option value="Blinged">
+            <option value="Blockchain Megaways">
+            <option value="Blood Eternal">
+            <option value="Blood Lust">
+            <option value="Blood Moon">
+            <option value="Blood Queen">
+            <option value="Blood Suckers">
+            <option value="Blood Suckers 2">
+            <option value="Bloopers">
+            <option value="Blue Diamond">
+            <option value="Blue Fortune">
+            <option value="Blue Wizard">
+            <option value="Boat Bonanza">
+            <option value="Bollywood Story">
+            <option value="Bomb Bonanza">
+            <option value="Bompers">
+            <option value="Bonanza">
+            <option value="Bonanza Billion">
+            <option value="Bonnie And Clyde">
+            <option value="Bonus Beans">
+            <option value="Bonus Bunnies">
+            <option value="Book Del Sol">
+            <option value="Book Double Chance">
+            <option value="Book Gold Multichance">
+            <option value="Book Hotfire">
+            <option value="Book N Spin">
+            <option value="Book of 99">
+            <option value="Book of Adventure Super Stake">
+            <option value="Book of Alchemy">
+            <option value="Book of Atem">
+            <option value="Book of Ba">
+            <option value="Book of Crazy Chicken">
+            <option value="Book of Darkness">
+            <option value="Book of Dead">
+            <option value="Book of Dead ">
+            <option value="Book of Dragons">
+            <option value="Book of Duat">
+            <option value="Book of Fruits">
+            <option value="Book of Gods">
+            <option value="Book of Gold Double Chance">
+            <option value="Book of Golden Sands">
+            <option value="Book of Ibis">
+            <option value="Book of Immortals">
+            <option value="Book of Juno">
+            <option value="Book of Kingdoms">
+            <option value="Book of Madness">
+            <option value="Book of Merlin">
+            <option value="Book of Ming">
+            <option value="Book of Museum">
+            <option value="Book of Oasis">
+            <option value="Book of Oz">
+            <option value="Book of Oziris">
+            <option value="Book of Pharao">
+            <option value="Book of Rebirth">
+            <option value="Book of Rest">
+            <option value="Book of Romeo & Julia">
+            <option value="Book of Romeo & Julia Golden Nights">
+            <option value="Book of Santa">
+            <option value="Book of Shadows">
+            <option value="Book of Spells">
+            <option value="Book of Sun">
+            <option value="Book of Sun Choice">
+            <option value="Book of Sun Multichance">
+            <option value="Book of Tattoo">
+            <option value="Book of Tattoo 2">
+            <option value="Book of the Ages">
+            <option value="Book of the Fallen">
+            <option value="Book of Time">
+            <option value="Book of Tut">
+            <option value="Book of Tut Respin ">
+            <option value="Book of Vikings">
+            <option value="Book of Wizard Double Chance">
+            <option value="Books & Bounties">
+            <option value="Books & Bulls">
+            <option value="Books & Bulls Double Rush">
+            <option value="Books & Bulls Golden Nights">
+            <option value="Books & Bulls Red Hot Fire Pot">
+            <option value="Books & Temples">
+            <option value="Books And Pearls">
+            <option value="Boom Brothers">
+            <option value="Boom Pirates">
+            <option value="Boom Shakalaka">
+            <option value="Boomanji">
+            <option value="Boomerang Bonanza">
+            <option value="Booming Bananas">
+            <option value="Booming Bars">
+            <option value="Booming Circus">
+            <option value="Booming Gold">
+            <option value="Booming Seven">
+            <option value="Booming Seven Deluxe">
+            <option value="Booster">
+            <option value="Booty Bay">
+            <option value="Born Wild">
+            <option value="Bounty Belles">
+            <option value="Bounty Gold">
+            <option value="Bountypop">
+            <option value="Brave Mongoose">
+            <option value="Brazil Bomba">
+            <option value="Break Away">
+            <option value="Break Bank Again">
+            <option value="Brides Maids">
+            <option value="Bronco Spirit">
+            <option value="Brutal Santa">
+            <option value="Bubble Fruits">
+            <option value="Bubbles Bonanza">
+            <option value="Buffalo Hunter">
+            <option value="Buffalo King">
+            <option value="Buffalo King Megaways">
+            <option value="Buffalo Power Megaways">
+            <option value="Buffalo Rising Megaways">
+            <option value="Buffalo Stack'N'Sync">
+            <option value="Buffalo Toro">
+            <option value="Bugs Tale">
+            <option value="Bugs World">
+            <option value="Bull In A China Shop">
+            <option value="Bull In A Rodeo">
+            <option value="Burning Desire">
+            <option value="Burning Flame">
+            <option value="Burning Reels">
+            <option value="Burning Stars">
+            <option value="Burning Stars 3">
+            <option value="Bushido Ways Xnudge">
+            <option value="Bust the Bank">
+            <option value="Butterfly Butterfly Staxx 2">
+            <option value="Butterfly Lovers">
+            <option value="Butterfly Staxx">
+            <option value="Butterfly Staxx 2">
+            <option value="Cabin Crashers">
+            <option value="Cai Shen Four">
+            <option value="Caishen'S Cash">
+            <option value="Caishens Arrival">
+            <option value="Caishens Gold">
+            <option value="Calavera Crush">
+            <option value="Caligula">
+            <option value="Candy Boom">
+            <option value="Candy Cart">
+            <option value="Candy Cash">
+            <option value="Candy Dreams">
+            <option value="Candy Palace">
+            <option value="Candy Slot Twins">
+            <option value="Candy Stars">
+            <option value="Candy Tower">
+            <option value="Captain Shark">
+            <option value="Captain Xeno'S Earth Adventure">
+            <option value="Caribbean Cashpot">
+            <option value="Carnaval">
+            <option value="Carnaval Forever">
+            <option value="Carnival Queen">
+            <option value="Carol the Elves">
+            <option value="Carousel">
+            <option value="Cash A Cabana">
+            <option value="Cash Bonanza">
+            <option value="Cash Camel">
+            <option value="Cash Compass">
+            <option value="Cash Elevator">
+            <option value="Cash of Command">
+            <option value="Cash of Kingdoms">
+            <option value="Cash Patrol">
+            <option value="Cash Pump">
+            <option value="Cash Quest">
+            <option value="Cash Splash">
+            <option value="Cash Tank">
+            <option value="Cash Truck">
+            <option value="Cash Vandal">
+            <option value="Cash-O-Matic">
+            <option value="Cashville">
+            <option value="Casino Royale">
+            <option value="Casino Wars">
+            <option value="Casino Win Spin">
+            <option value="Castle Blood">
+            <option value="Castle of Terror">
+            <option value="Cats And Cash">
+            <option value="Cats Gone Wild">
+            <option value="Caveman Bob">
+            <option value="Cazino Cosmos">
+            <option value="Cazino Zeppelin">
+            <option value="Cazino Zeppelin Reloaded">
+            <option value="Celebration of Wealth">
+            <option value="Celebrity Jungle">
+            <option value="Champion of the Underworld Gigablox Wildfight">
+            <option value="Champions Goal">
+            <option value="Champions of Mithrune">
+            <option value="Champions of Rome">
+            <option value="Chaos Crew">
+            <option value="Charlie Chance Xreelz">
+            <option value="Charming Lady Luck">
+            <option value="Charming Queens">
+            <option value="Charms Clovers">
+            <option value="Cheeky Monkeys">
+            <option value="Cheerful Farmer">
+            <option value="Cherry Blast">
+            <option value="Cherry Bomb Deluxe">
+            <option value="Cherry Trio">
+            <option value="Cherrypop">
+            <option value="Cherrypop Deluxe">
+            <option value="Chest of Fortunes">
+            <option value="Chi">
+            <option value="Chibeasties">
+            <option value="Chibeasties 2">
+            <option value="Chicago">
+            <option value="Chicago Nights">
+            <option value="Chicken Chase">
+            <option value="Chicken Drop">
+            <option value="Chicken Party">
+            <option value="Chili Quest">
+            <option value="Chilli Chilli Bang Bang">
+            <option value="Chilli Heat">
+            <option value="Chilli Heat Megaways">
+            <option value="Chilli Picante Megaways">
+            <option value="Chilli Pop">
+            <option value="Chimney Sweep">
+            <option value="Chinese New Year">
+            <option value="Chinese New Year">
+            <option value="Chinese Treasures">
+            <option value="Chinese Zodiac ">
+            <option value="Chinese Zodiac ">
+            <option value="Christmas Carol Megaways">
+            <option value="Christmas Joker">
+            <option value="Christmas Joy">
+            <option value="Christmas Tree">
+            <option value="Christmas-Plaza-Doublemax">
+            <option value="Chronos Joker">
+            <option value="Chunjie">
+            <option value="Cinderella'S Ball">
+            <option value="Circus of Horror">
+            <option value="Clash of Gods">
+            <option value="Clash of Pirates">
+            <option value="Classic Fruit">
+            <option value="Classico">
+            <option value="Cleocatra">
+            <option value="Cleopatra Jewels">
+            <option value="Cleopatra'S Diary">
+            <option value="Cleopatra'S Secret">
+            <option value="Cloud Quest">
+            <option value="Cloud Tales">
+            <option value="Clover Gold">
+            <option value="Clover Riches">
+            <option value="Cluster Tumble">
+            <option value="Code Name Jackpot">
+            <option value="Coffee Wild Powernudge">
+            <option value="Coils of Cash">
+            <option value="Coins of Egypt">
+            <option value="Coins of Fortune">
+            <option value="Cold As Ice">
+            <option value="Cold Cash">
+            <option value="Colin the Cat">
+            <option value="Colossal Cash Zone">
+            <option value="Colossal Fruit Smash">
+            <option value="Colossal Vikings">
+            <option value="Colossus Christmas Edition">
+            <option value="Colossus Easter Edition">
+            <option value="Colossus Fruits">
+            <option value="Colossus Kingdom">
+            <option value="Conan">
+            <option value="Congo Cash">
+            <option value="Contact">
+            <option value="Continent Africa">
+            <option value="Cool Buck">
+            <option value="Cops N Robbers">
+            <option value="Corrida Romance">
+            <option value="Corrida Romance Deluxe">
+            <option value="Cosa Nostra">
+            <option value="Cosmic Cash">
+            <option value="Cosmic Crystals">
+            <option value="Cosmic Dream">
+            <option value="Court of Hearts">
+            <option value="Cowboys Gold">
+            <option value="Coywolf Cash">
+            <option value="Crazy Bananas">
+            <option value="Crazy Bot">
+            <option value="Crazy Cars">
+            <option value="Crazy Cows">
+            <option value="Crazy Genie">
+            <option value="Creature Black Lagoon">
+            <option value="Cribbage">
+            <option value="Cricket Star">
+            <option value="Criss Cross 81">
+            <option value="Critterpop">
+            <option value="Crown of Valor">
+            <option value="Crusader">
+            <option value="Cryp Crusade">
+            <option value="Crypbattle">
+            <option value="Crystal Ball">
+            <option value="Crystal Ball Golden Nights">
+            <option value="Crystal Ball Red Hot Fire Pot">
+            <option value="Crystal Clans">
+            <option value="Crystal Falls Multimax">
+            <option value="Crystal Mania">
+            <option value="Crystal Mystery">
+            <option value="Crystal Prince">
+            <option value="Crystal Queen">
+            <option value="Crystal Quest Arcane Tower">
+            <option value="Crystal Quest Frostands">
+            <option value="Crystal Rift">
+            <option value="Crystal Sun">
+            <option value="Cuba Caliente">
+            <option value="Cube 2">
+            <option value="Cube Mania">
+            <option value="Cube Mania Deluxe">
+            <option value="Cubes 2">
+            <option value="Cuckoo">
+            <option value="Cupid Strike 2">
+            <option value="Curse of the Werewolf Megaways">
+            <option value="Cutie Cat">
+            <option value="Cutie Cat Crazy Chicken Shooter">
+            <option value="Cygnus">
+            <option value="Cygnus 2">
+            <option value="Cyrus the Virus">
+            <option value="Da Vinci'S Treasure ">
+            <option value="Da Vincis Mystery">
+            <option value="Dance Party">
+            <option value="Dancing Lion">
+            <option value="Dark Carnivale">
+            <option value="Dark Joker Rizes">
+            <option value="Dark Thirst">
+            <option value="Dark Vortex">
+            <option value="Das Xboot">
+            <option value="Davinci Codex">
+            <option value="Dawn of Egypt">
+            <option value="Dawn the Druids">
+            <option value="Day & Night">
+            <option value="Day of Dead">
+            <option value="Dazzle Me">
+            <option value="Dead Canary">
+            <option value="Dead Man'S Fingers">
+            <option value="Dead Man'S Trial">
+            <option value="Dead Or Alive">
+            <option value="Dead Or Alive 2">
+            <option value="Dead Riders Trail">
+            <option value="Deadly 5">
+            <option value="Deadwood">
+            <option value="Deadworld">
+            <option value="Deck the Halls">
+            <option value="Deco Diamonds Deluxe">
+            <option value="Deep Blue Sea">
+            <option value="Def Leppard Hysteria">
+            <option value="Demi Christmas Edition">
+            <option value="Demi Expanded Edition">
+            <option value="Demi Gods">
+            <option value="Demi Gods 2">
+            <option value="Demi Gods 3">
+            <option value="Demi Gods Lines">
+            <option value="Demon">
+            <option value="Demon Demon Jack 27">
+            <option value="Desert Drag">
+            <option value="Desperados Wild Megaways">
+            <option value="Dessert">
+            <option value="Dessert Mario">
+            <option value="Devil'S Delight">
+            <option value="Devil'S Heat">
+            <option value="Dia Del Mariachi Megaways">
+            <option value="Dia Los Muertos">
+            <option value="Diamond Blitz">
+            <option value="Diamond Hill">
+            <option value="Diamond Mine Megaways">
+            <option value="Diamond Progressive">
+            <option value="Diamond Strike">
+            <option value="Diamond Vapor">
+            <option value="Diamond Vortex">
+            <option value="Diamond Wild">
+            <option value="Diamonds Are Forever">
+            <option value="Diamonds of the Realm">
+            <option value="Dice Dice Dice">
+            <option value="Dig That Gold">
+            <option value="Diner of Fortune">
+            <option value="Dino Reels 81">
+            <option value="Dinopolis">
+            <option value="Dinosaur Rage">
+            <option value="Dio - Killing the Dragon">
+            <option value="Disc of Athena">
+            <option value="Disco Bar 7S">
+            <option value="Disco Diamonds">
+            <option value="Disco Double">
+            <option value="Disco Fever">
+            <option value="Disco Mania Megaways Merge">
+            <option value="Divine Carnival">
+            <option value="Divine Dreams">
+            <option value="Divine Fire">
+            <option value="Divine Forest">
+            <option value="Divine Fortune">
+            <option value="Divine Fortune Megaways">
+            <option value="Divine Showdown">
+            <option value="Divine Ways">
+            <option value="Dj Mario">
+            <option value="Dj Rock">
+            <option value="Dj Wild">
+            <option value="Dolce Vita">
+            <option value="Dollar Express">
+            <option value="Dolphin'S Dolphin'S Luck 2">
+            <option value="Dolphin'S Island">
+            <option value="Dolphin'S Treasure">
+            <option value="Don Juan'S Peppers">
+            <option value="Donut Rush">
+            <option value="Doom of Dead ">
+            <option value="Doom of Egypt">
+            <option value="Dork Unit">
+            <option value="Double Cash">
+            <option value="Double Dragons">
+            <option value="Double Flash">
+            <option value="Double Lucky Line">
+            <option value="Double Rainbow">
+            <option value="Double Stacks">
+            <option value="Double Tigers">
+            <option value="Doubles">
+            <option value="Doublin Gold">
+            <option value="Down the Rails">
+            <option value="Downtown">
+            <option value="Dr Fortuno">
+            <option value="Dr. Jekyll & Mr. Hyde ">
+            <option value="Dr. Jekyll & Mr. Hyde ">
+            <option value="Dracula">
+            <option value="Dracula'S Castle">
+            <option value="Drago - Jewels of Fortune">
+            <option value="Drago of Fortune">
+            <option value="Dragon And Phoenix">
+            <option value="Dragon Chase">
+            <option value="Dragon Dance">
+            <option value="Dragon Egg">
+            <option value="Dragon Hero">
+            <option value="Dragon Hot Hold And Spin">
+            <option value="Dragon Hunter">
+            <option value="Dragon King">
+            <option value="Dragon Kingdom">
+            <option value="Dragon Kings">
+            <option value="Dragon Lady">
+            <option value="Dragon Maiden">
+            <option value="Dragon Match Megaways">
+            <option value="Dragon of the Princess">
+            <option value="Dragon Pearls">
+            <option value="Dragon Riches">
+            <option value="Dragon Ship">
+            <option value="Dragon Shrine">
+            <option value="Dragon Sisters">
+            <option value="Dragon Stone">
+            <option value="Dragon Tiger ">
+            <option value="Dragon Tiger ">
+            <option value="Dragon Tiger ">
+            <option value="Dragon Tribe">
+            <option value="Dragon Whisperer">
+            <option value="Dragon'S Chest">
+            <option value="Dragon'S Fire">
+            <option value="Dragon�S Fire Infinireels">
+            <option value="Dragon'S Fire Megaways">
+            <option value="Dragon'S Luck">
+            <option value="Dragon'S Luck Megaways">
+            <option value="Dragon'S Mystery">
+            <option value="Dragon'S Power">
+            <option value="Dragon'S Power Reels">
+            <option value="Dragonblox Gigablox">
+            <option value="Dragonfire Chamber of Gold Hold & Win">
+            <option value="Dragons Awakening">
+            <option value="Dragons Charms">
+            <option value="Dragons Lucky 8">
+            <option value="Dragonz">
+            <option value="Dream Date">
+            <option value="Dream Drop Diamonds">
+            <option value="Drill That Gold">
+            <option value="Drive Multiplier Mayhem">
+            <option value="Dropz">
+            <option value="Druids Dream">
+            <option value="Drunken Vikings">
+            <option value="Duck Shooter">
+            <option value="Duck Shooter Crazy Chicken Shooter">
+            <option value="Dungeon Immortal Evil">
+            <option value="Dungeon Quest">
+            <option value="Durga">
+            <option value="Durian Dynamite">
+            <option value="Dwarf Mine">
+            <option value="Dwarfs Fortune">
+            <option value="Dwarfs Gone Wild">
+            <option value="Dwarven Gold">
+            <option value="Dwarven Gold Deluxe">
+            <option value="Dynamite Riches">
+            <option value="Eagle Riches">
+            <option value="East Coast Vs West Coast">
+            <option value="East Dragon King">
+            <option value="Easter Eggs">
+            <option value="Easter Island">
+            <option value="Easter Island 2">
+            <option value="Eastern Emeralds">
+            <option value="Eastern Emeralds Megaways">
+            <option value="Eat them All">
+            <option value="Eclipse of the Sun God ">
+            <option value="Ecuador Gold">
+            <option value="Eggomatic">
+            <option value="Egypt Gods">
+            <option value="Egyptian Adventure">
+            <option value="Egyptian Fortunes">
+            <option value="Egyptian King">
+            <option value="Egyptian Rebirth">
+            <option value="Egyptian Rebirth 2">
+            <option value="El Paso Gunfight">
+            <option value="El Toreo">
+            <option value="El Torero">
+            <option value="Electric Sam">
+            <option value="Elements the Awakening">
+            <option value="Elven Magic">
+            <option value="Elven Princesses">
+            <option value="Emerald Diamond">
+            <option value="Emerald King Rainbow Road">
+            <option value="Emoji Planet">
+            <option value="Emoticoins">
+            <option value="Emperor the Sea">
+            <option value="Emperor'S Tomb">
+            <option value="Emperor'S Wealth">
+            <option value="Empires Warlords">
+            <option value="Empty the Bank">
+            <option value="Enchanted">
+            <option value="Enchanted Crystals">
+            <option value="Enchanted Meadow">
+            <option value="End of Edo">
+            <option value="Energoonz">
+            <option value="Energy Fruits">
+            <option value="Energy Stars">
+            <option value="Epic Gladiators">
+            <option value="Epic Joker">
+            <option value="Epic Journey">
+            <option value="Era of Gods">
+            <option value="Erik the Red">
+            <option value="Esqueleto Explosivo 2">
+            <option value="Esqueleto Mariachi">
+            <option value="Eternal Love">
+            <option value="Euphoria">
+            <option value="Event Horizon">
+            <option value="Evil Goblins">
+            <option value="Excalibur">
+            <option value="Exotic Cats">
+            <option value="Exotic Fruit">
+            <option value="Exotic Fruit Deluxe">
+            <option value="Expanding Fireworks">
+            <option value="Exploding Pirates">
+            <option value="Explosive Reels">
+            <option value="Extra Juicy">
+            <option value="Extra Juicy Megaways">
+            <option value="Eye of Atum">
+            <option value="Eye of Cleopatra">
+            <option value="Eye of the Storm">
+            <option value="Eye the Amulet">
+            <option value="Eye the Kraken">
+            <option value="F1 Racing">
+            <option value="Fa Twins">
+            <option value="Face">
+            <option value="Faerie Spells">
+            <option value="Faeries Fortune">
+            <option value="Fairy Gate">
+            <option value="Fairy Mirror">
+            <option value="Fairy Tale">
+            <option value="Fairytale Fortune">
+            <option value="Fairytale Riding Hood">
+            <option value="Falcon Huntress">
+            <option value="Farm of Fun">
+            <option value="Farmer Bob">
+            <option value="Fat Banker">
+            <option value="Fat Drac">
+            <option value="Fat Frankies">
+            <option value="Fat Lady Sings">
+            <option value="Fat Rabbit">
+            <option value="Fat Santa">
+            <option value="Fear the Zombies">
+            <option value="Feathered Frenzy">
+            <option value="Feline Fury">
+            <option value="Feng Fu">
+            <option value="Feng Shui Kitties">
+            <option value="Fenix Play">
+            <option value="Fenix Play 27">
+            <option value="Fenix Play Deluxe">
+            <option value="Festive Indulgence">
+            <option value="Fibonacci">
+            <option value="Finn Swirly Spin">
+            <option value="Finn'S Golden Tavern">
+            <option value="Fire 'N' Hot">
+            <option value="Fire & Ice">
+            <option value="Fire 88">
+            <option value="Fire And Steel">
+            <option value="Fire Bird">
+            <option value="Fire In the Hole Xbomb">
+            <option value="Fire Joker">
+            <option value="Fire Strike">
+            <option value="Fire Toad">
+            <option value="Firebird Spirit Connect & Collect">
+            <option value="Firefly Frenzy">
+            <option value="Firestorm">
+            <option value="Fireworks Fever">
+            <option value="Fish Eye">
+            <option value="Fish Party">
+            <option value="Fishin For Gold">
+            <option value="Fishing Reels">
+            <option value="Five Blessings">
+            <option value="Five Power Reels">
+            <option value="Five Star">
+            <option value="Five Star Luxury">
+            <option value="Flame Busters ">
+            <option value="Flaming Fox">
+            <option value="Flaming Fruit">
+            <option value="Flaming Reels">
+            <option value="Flamingo Paradise">
+            <option value="Floating Dragon">
+            <option value="Floating Dragon Megaways Hold & Spin">
+            <option value="Floragedoon">
+            <option value="Flowers">
+            <option value="Flowers Christmas Edition">
+            <option value="Fluffy Slot">
+            <option value="Folsom Prison">
+            <option value="Football ">
+            <option value="Football ">
+            <option value="Football 3X3">
+            <option value="Football Champions Cup">
+            <option value="Football Glory">
+            <option value="Football Mania">
+            <option value="Football Mania Deluxe">
+            <option value="Football Star">
+            <option value="Football Super Spins">
+            <option value="Football Superstar">
+            <option value="Forbidden Slot">
+            <option value="Forest Ant">
+            <option value="Forest Band">
+            <option value="Forest Fortune">
+            <option value="Forest Harmony">
+            <option value="Forest Mania">
+            <option value="Forge of Gems">
+            <option value="Forro">
+            <option value="Fort Brave">
+            <option value="Fortune Cat">
+            <option value="Fortune Cats Golden Stacks">
+            <option value="Fortune Charm">
+            <option value="Fortune Diamond">
+            <option value="Fortune Fest">
+            <option value="Fortune House">
+            <option value="Fortune Keepers">
+            <option value="Fortune Lions">
+            <option value="Fortune of Giza">
+            <option value="Fortune Panda">
+            <option value="Fortune Rangers">
+            <option value="Fortune Reels">
+            <option value="Fortune Reels Xmas Edition">
+            <option value="Fortune Rewind">
+            <option value="Fortune Teller">
+            <option value="Fortune Tiger Hyperways">
+            <option value="Fortunes of Ali Baba">
+            <option value="Fortunium">
+            <option value="Frank's Farm">
+            <option value="Frankenslots Monster">
+            <option value="Frankenstein">
+            <option value="Freemason'S Fortune">
+            <option value="Fresh Fortune">
+            <option value="Fresh Fruits">
+            <option value="From With Love">
+            <option value="Frozen Gems">
+            <option value="Frozen Queen">
+            <option value="Fruit">
+            <option value="Fruit Bat Crazy">
+            <option value="Fruit Blox">
+            <option value="Fruit Bonanza">
+            <option value="Fruit Boxes">
+            <option value="Fruit Burst">
+            <option value="Fruit Case">
+            <option value="Fruit Christmas Edition">
+            <option value="Fruit Duel">
+            <option value="Fruit Fiesta ">
+            <option value="Fruit Fiesta ">
+            <option value="Fruit Mania">
+            <option value="Fruit Mania Deluxe">
+            <option value="Fruit Party">
+            <option value="Fruit Party 2">
+            <option value="Fruit Rainbow">
+            <option value="Fruit Shop">
+            <option value="Fruit Snap">
+            <option value="Fruit Spin">
+            <option value="Fruit Vs Candy">
+            <option value="Fruit Zen">
+            <option value="Fruitastic As Fruitastic">
+            <option value="Fruitoids">
+            <option value="Fruits">
+            <option value="Fruits Christmas Edition">
+            <option value="Fruits Deluxe">
+            <option value="Fruits Easter Edition">
+            <option value="Fruits Go Bananas">
+            <option value="Fruits of Beon">
+            <option value="Fruitsland">
+            <option value="Fruity 3X3">
+            <option value="Fruity Fruit Farm">
+            <option value="Frutz">
+            <option value="Fu Er Dai">
+            <option value="Fugaso Airlines">
+            <option value="Full Moon Festival">
+            <option value="Funk Master">
+            <option value="Fury of Odin Megaways">
+            <option value="Gaelic Gold">
+            <option value="Game of Gladiators">
+            <option value="Game of Thrones">
+            <option value="Gangland">
+            <option value="Gangster Gamblers">
+            <option value="Gangster'S Slot">
+            <option value="Gardener">
+            <option value="Gates of Olympus">
+            <option value="Gates of Persia">
+            <option value="Gates of Troy">
+            <option value="Gates of Valhalla">
+            <option value="Gator Gold">
+            <option value="Gator Gold Deluxe Gigablox">
+            <option value="Geisha">
+            <option value="Geisha'S Fan">
+            <option value="Gem Rocks">
+            <option value="Gem Splitter">
+            <option value="Gemix">
+            <option value="Gemmed">
+            <option value="Gems & Stones">
+            <option value="Gems Bonanza">
+            <option value="Gems the Gods">
+            <option value="Gemstone Legend">
+            <option value="Gemtastic">
+            <option value="Generous Jack">
+            <option value="Genie Wishes">
+            <option value="Genie'S Touch">
+            <option value="Genies Fortune">
+            <option value="Gentlemen">
+            <option value="Ghost of Dead">
+            <option value="Ghost Pirates">
+            <option value="Ghosts And Gold">
+            <option value="Gift Rap">
+            <option value="Gift Shop">
+            <option value="Gifts of Ostara">
+            <option value="Gigantoonz">
+            <option value="Gingerbread Joy">
+            <option value="Giovannis Gems">
+            <option value="Gladiator">
+            <option value="Gladiator Arena">
+            <option value="Gladiator Legends">
+            <option value="Gladiator of Rome">
+            <option value="Gladiators">
+            <option value="Gladiators Go Wild">
+            <option value="Gladiators Victory">
+            <option value="Glam Life">
+            <option value="Glamorous Times">
+            <option value="Glorious Rome">
+            <option value="Gnome Wood">
+            <option value="Go Bananas">
+            <option value="Goal !!!">
+            <option value="Goblin Heist Powernudge">
+            <option value="God of Fortune">
+            <option value="God of Wealth">
+            <option value="God'S Temple Deluxe">
+            <option value="Gods of Olympus">
+            <option value="Gods of Rock">
+            <option value="Gods of Slots">
+            <option value="Gold">
+            <option value="Gold Canyon">
+            <option value="Gold Digger Megaways">
+            <option value="Gold Diggers">
+            <option value="Gold Factory">
+            <option value="Gold King">
+            <option value="Gold Lab">
+            <option value="Gold Money Frog">
+            <option value="Gold of Ming">
+            <option value="Gold of Ra">
+            <option value="Gold Party">
+            <option value="Gold Rush">
+            <option value="Gold Star">
+            <option value="Gold Train">
+            <option value="Gold Trophy 2">
+            <option value="Gold Vein">
+            <option value="Gold Volcano">
+            <option value="Golden Beauty">
+            <option value="Golden Caravan">
+            <option value="Golden Catch">
+            <option value="Golden Chance">
+            <option value="Golden Colts">
+            <option value="Golden Cryptex">
+            <option value="Golden Dragon">
+            <option value="Golden Dynasty">
+            <option value="Golden Egg of Crazy Chicken">
+            <option value="Golden Egg of Crazy Chicken Crazy Chicken Shooter">
+            <option value="Golden Farm">
+            <option value="Golden Fish Tank">
+            <option value="Golden Fish Tank 2 Gigablox">
+            <option value="Golden Genie And the Walking Wilds">
+            <option value="Golden Girls">
+            <option value="Golden Glyph">
+            <option value="Golden Glyph 2">
+            <option value="Golden Goal">
+            <option value="Golden Goals">
+            <option value="Golden Gorilla">
+            <option value="Golden Grimoire">
+            <option value="Golden Lamp">
+            <option value="Golden Legend">
+            <option value="Golden Leprechaun Megaways">
+            <option value="Golden Lotus">
+            <option value="Golden Lucky Pigs">
+            <option value="Golden New World">
+            <option value="Golden offer">
+            <option value="Golden Osiris">
+            <option value="Golden Princess">
+            <option value="Golden Profits">
+            <option value="Golden Royals">
+            <option value="Golden Shot">
+            <option value="Golden Sphinx">
+            <option value="Golden Temple">
+            <option value="Golden Ticket">
+            <option value="Golden Ticket 2">
+            <option value="Golden Tides">
+            <option value="Golden Tiger">
+            <option value="Golden Tsar">
+            <option value="Goldilocks">
+            <option value="Goldilocks Wild Bears">
+            <option value="Goldy Piggy">
+            <option value="Golf Championship">
+            <option value="Golf Club">
+            <option value="Gonzos Quest">
+            <option value="Good Bad Girl">
+            <option value="Good Luck 40">
+            <option value="Gordon Ramsay Hell'S Kitchen">
+            <option value="Gorilla Kingdom">
+            <option value="Gorilla Mayhem">
+            <option value="Graffiti">
+            <option value="Grand Spinn">
+            <option value="Grand Spinn Superpot">
+            <option value="Grand Sumo">
+            <option value="Grand Wheel">
+            <option value="Great 88">
+            <option value="Great Magic Deluxe">
+            <option value="Great Ocean">
+            <option value="Great of Magic">
+            <option value="Great Reef">
+            <option value="Great Rhino">
+            <option value="Great Rhino Deluxe">
+            <option value="Great Rhino Megaways">
+            <option value="Great Wall">
+            <option value="Great Warrior">
+            <option value="Greedy Goblins">
+            <option value="Greedy Servants">
+            <option value="Greedy Wolf">
+            <option value="Greek Gods">
+            <option value="Greek Mythology">
+            <option value="Green Diamond">
+            <option value="Grill King">
+            <option value="Grim Muerto">
+            <option value="Gung Pow">
+            <option value="Guns N' Roses">
+            <option value="Gunslinger Reloaded">
+            <option value="Gypsy Rose">
+            <option value="Hades Gigablox">
+            <option value="Hall of the Mountain King">
+            <option value="Halloween">
+            <option value="Halloween">
+            <option value="Halloween Horrors">
+            <option value="Halloween Jack">
+            <option value="Hammer of Thor">
+            <option value="Hammer of Vulcan">
+            <option value="Hammerfall">
+            <option value="Hand of Anubis">
+            <option value="Hanzo'S Dojo">
+            <option value="Happy Birds">
+            <option value="Happy Fish">
+            <option value="Happy Halloween">
+            <option value="Happy Holidays">
+            <option value="Happy Hooves Powernudge">
+            <option value="Harlequin Carnival">
+            <option value="Harvest Fest">
+            <option value="Harvest Wilds">
+            <option value="Harveys">
+            <option value="Haunted Circus">
+            <option value="Haunted Hospital">
+            <option value="Hawaii Tiki">
+            <option value="Hawaii Vacation">
+            <option value="Heart of Rio">
+            <option value="Heist">
+            <option value="Hellboy">
+            <option value="Hellcatraz">
+            <option value="Helloween">
+            <option value="Hercules And Pegasus">
+            <option value="Hercules of Zeus">
+            <option value="Here Comes Summer">
+            <option value="Heroes Gathering">
+            <option value="Hidden">
+            <option value="Hidden Valley">
+            <option value="Highlander">
+            <option value="Highschool Manga">
+            <option value="Highway Hell Deluxe">
+            <option value="Highway To Hell">
+            <option value="Hippopop">
+            <option value="Hit It Big">
+            <option value="Hit It Hard">
+            <option value="Ho Ho Ho">
+            <option value="Ho Ho Tower">
+            <option value="Hockey Hero">
+            <option value="Hockey League">
+            <option value="Hockey Wild Match">
+            <option value="Holiday Season">
+            <option value="Holmes And the Stolen Stones">
+            <option value="Honey Honey Honey">
+            <option value="Honey Rush">
+            <option value="Hong Kong Tower">
+            <option value="Hook'S Heroes">
+            <option value="Hooked">
+            <option value="Hooligan Hustle">
+            <option value="Hop'N'Pop">
+            <option value="Horror Castle">
+            <option value="Hot 777">
+            <option value="Hot 777 Deluxe">
+            <option value="Hot As Hades">
+            <option value="Hot Blizzard">
+            <option value="Hot Chilli">
+            <option value="Hot Classic">
+            <option value="Hot Fiesta">
+            <option value="Hot N Fruity">
+            <option value="Hot Nudge">
+            <option value="Hot Party">
+            <option value="Hot Party Deluxe">
+            <option value="Hot Rod Racers">
+            <option value="Hot Safari">
+            <option value="Hot Shots">
+            <option value="Hot Slot Magic Bombs">
+            <option value="Hot Spin Deluxe">
+            <option value="Hot Spins">
+            <option value="Hot Sync">
+            <option value="Hot To Burn Hold And Spin">
+            <option value="Hot Triple Sevens">
+            <option value="Hotel Yeti-Way">
+            <option value="Hotline">
+            <option value="Hounted House">
+            <option value="House of Doom">
+            <option value="House of Doom 2 - the Crypt">
+            <option value="House of Fun">
+            <option value="Huangdi Yellow Emperor">
+            <option value="Hugo">
+            <option value="Hugo 2">
+            <option value="Hugo Carts">
+            <option value="Hugo Goal">
+            <option value="Hugo'S Adventure">
+            <option value="Humpty Dumpty">
+            <option value="Hungry Night">
+            <option value="Hungry Shark">
+            <option value="Hunting Treasures">
+            <option value="Hunting Treasures Deluxe">
+            <option value="Hyper Burst">
+            <option value="Hypernova Radial Reels">
+            <option value="I Am the Law">
+            <option value="Ice Age">
+            <option value="Ice And Fire">
+            <option value="Ice Breaker">
+            <option value="Ice Joker">
+            <option value="Ice Pirates">
+            <option value="Ice Wolf">
+            <option value="Ice Yeti">
+            <option value="Icy Gems">
+            <option value="Idol of Fortune">
+            <option value="Ignite the Night">
+            <option value="Illuminous">
+            <option value="Illusions 2">
+            <option value="Imhotep Manuscript">
+            <option value="Immortails of Egypt">
+            <option value="Immortal Fruit">
+            <option value="Immortal Guild">
+            <option value="Immortal Romance">
+            <option value="Imperial Opera">
+            <option value="Imperial Palace">
+            <option value="Imperial Riches">
+            <option value="Imperial Wealth">
+            <option value="In Jazz">
+            <option value="In the Forest">
+            <option value="Inca'S Treasure">
+            <option value="Incinerator">
+            <option value="Indiana'S Quest">
+            <option value="Infectious 5 Xways">
+            <option value="Inferno Joker">
+            <option value="Inferno Star">
+            <option value="Infinity Hero">
+            <option value="Invaders Megaways">
+            <option value="Io">
+            <option value="Irish Charm">
+            <option value="Irish Charms">
+            <option value="Irish Gold">
+            <option value="Irish Love">
+            <option value="Irish Lucky Dice">
+            <option value="Irish Reels">
+            <option value="Irish Treasures">
+            <option value="Iron Assassins">
+            <option value="Iron Bank">
+            <option value="Iron Girl">
+            <option value="It Came From... Venus">
+            <option value="It'S Time">
+            <option value="Italia 3X3">
+            <option value="Itero">
+            <option value="Ivan Immortal King">
+            <option value="Ivanhoe">
+            <option value="Ivory Citadel">
+            <option value="Jack A Pot">
+            <option value="Jack Hammer">
+            <option value="Jack Hammer 2">
+            <option value="Jack On Hold">
+            <option value="Jack the Beanstalk">
+            <option value="Jack'S Ride">
+            <option value="Jackpot 3X3">
+            <option value="Jackpot Builders">
+            <option value="Jackpot Jamba">
+            <option value="Jackpot Quest">
+            <option value="Jackpot Raiders">
+            <option value="Jackpot Rango">
+            <option value="Jade Butterfly">
+            <option value="Jade Charms">
+            <option value="Jade Connection">
+            <option value="Jade Magician">
+            <option value="Jade Treasure">
+            <option value="Jaguar Temple">
+            <option value="Jammin Jars">
+            <option value="Jammin Jars 2">
+            <option value="Japanese Fortune">
+            <option value="Japanese Mask">
+            <option value="Jazz Bar">
+            <option value="Jazz Spin">
+            <option value="Jester Spins">
+            <option value="Jetsetter">
+            <option value="Jewel Blast">
+            <option value="Jewel Box">
+            <option value="Jewel Scarabs">
+            <option value="Jewel Sea">
+            <option value="Jewellery Store">
+            <option value="Jewels World">
+            <option value="Jimi Hendrix">
+            <option value="Jin Chan'S Pond of Riches">
+            <option value="Jin Ping Mei">
+            <option value="Jingle Bells ">
+            <option value="Jingle Bells ">
+            <option value="Jingle Jingle">
+            <option value="Jingle Spin">
+            <option value="Joan of Arc">
+            <option value="Joker Bombs">
+            <option value="Joker Explosion">
+            <option value="Joker Gems">
+            <option value="Joker King">
+            <option value="Joker Madness">
+            <option value="Joker Pro">
+            <option value="Joker Reelz">
+            <option value="Joker Spin">
+            <option value="Joker Stacks">
+            <option value="Joker Strike">
+            <option value="Joker Troupe">
+            <option value="Joker'S Jewels">
+            <option value="Jokerizer">
+            <option value="Jokrz Wild Ultranudge">
+            <option value="Jolly Roger">
+            <option value="Jolly Roger Ii">
+            <option value="Journey Frog">
+            <option value="Journey the Gold">
+            <option value="Journey the West ">
+            <option value="Journey the West ">
+            <option value="Journey the West ">
+            <option value="Juicy Fruits">
+            <option value="Juicy Ninja">
+            <option value="Jumanji">
+            <option value="Jumbo Jellies">
+            <option value="Jumbo Joker">
+            <option value="Jumbo Stampede">
+            <option value="Jumpin Pot">
+            <option value="Jumping Fruits">
+            <option value="Jungle Adventure">
+            <option value="Jungle Books">
+            <option value="Jungle El Dorado">
+            <option value="Jungle Spirit">
+            <option value="Jurassic Giants">
+            <option value="Jurassic Jackpot">
+            <option value="Jurassic Park">
+            <option value="Jurassic Party">
+            <option value="Jurassic Treasure">
+            <option value="Jurassic World">
+            <option value="Justice Machine">
+            <option value="Kaiju">
+            <option value="Karaoke Party">
+            <option value="Karen Maneater">
+            <option value="Kathmandu">
+            <option value="Katmandu Gold">
+            <option value="Kawaii Kitty">
+            <option value="Kawaii Pets">
+            <option value="Keno Neon">
+            <option value="Kick Ass">
+            <option value="Kickoff">
+            <option value="King & Queen">
+            <option value="King Arthur">
+            <option value="King Carrot">
+            <option value="King Carrot">
+            <option value="King Cashalot">
+            <option value="King Colossus">
+            <option value="King of Kingdoms">
+            <option value="King of Monkeys">
+            <option value="King of Monkeys 2">
+            <option value="King of Slots">
+            <option value="King of the Jungle">
+            <option value="King of the Jungle Golden Nights">
+            <option value="King of the Jungle Red Hot Fire Pot">
+            <option value="King of the West">
+            <option value="King of Wealth">
+            <option value="King Tusk">
+            <option value="King'S Mask">
+            <option value="Kingmaker">
+            <option value="Kiron Virtual Sports">
+            <option value="Kiss Reels of Rock">
+            <option value="Kitchen Bbq Frenzy">
+            <option value="Kitchen Sushi Mania">
+            <option value="Kitty Cabana">
+            <option value="Kitty Cash">
+            <option value="Kitty Twins">
+            <option value="Kitty'S Luck">
+            <option value="Kluster Krystals Megaclusters">
+            <option value="Knockout">
+            <option value="Kobushi">
+            <option value="Koi Kingdom">
+            <option value="Koi Princess">
+            <option value="Kokeshi">
+            <option value="Kongo Bongo">
+            <option value="Korean Bbq">
+            <option value="La Dolce Vita">
+            <option value="La Dolce Vita Golden Nights">
+            <option value="La Dolce Vita Red Hot Fire Pot">
+            <option value="La Playa">
+            <option value="La Romantica">
+            <option value="Ladies Nite">
+            <option value="Lady Godiva">
+            <option value="Lady Luck">
+            <option value="Lady of Fortune">
+            <option value="Lady the Moon">
+            <option value="Lagertha">
+            <option value="Lake'S Five">
+            <option value="Land of Zenith">
+            <option value="Lapland">
+            <option value="Lara And Tombs">
+            <option value="Larry the Leprechaun">
+            <option value="Laser Fruit">
+            <option value="Last Chance Saloon">
+            <option value="Lava Lava">
+            <option value="Lava Lions">
+            <option value="Lava Loca">
+            <option value="Legacy of Dead">
+            <option value="Legacy of Egypt">
+            <option value="Legacy of Ra Megaways">
+            <option value="Legend Golden Monkey">
+            <option value="Legend Lore">
+            <option value="Legend of Cleopatra">
+            <option value="Legend of Cleopatra Megaways">
+            <option value="Legend of Kaan">
+            <option value="Legend of Loki">
+            <option value="Legend of Suns">
+            <option value="Legend of the Ice Dragon">
+            <option value="Legend of the Nile">
+            <option value="Legend Qu Yuan">
+            <option value="Legend Snake Lady">
+            <option value="Legendary Excalibur">
+            <option value="Legends of Ra">
+            <option value="Legion X">
+            <option value="Lemur Does Vegas">
+            <option value="Leprechaun Carol">
+            <option value="Leprechaun Goes Egypt">
+            <option value="Leprechaun Goes Wild">
+            <option value="Leprechaun Hills">
+            <option value="Leprechaun Song">
+            <option value="Leprechaun To Hell">
+            <option value="Leprechaun'S Lucky Barrel">
+            <option value="Leprechaun'S Magic Megaways">
+            <option value="Leprechaun'S Treasure">
+            <option value="Leprechaun'S Vault">
+            <option value="Leprechauns Magic">
+            <option value="Let It Snow">
+            <option value="Let'S Get Ready To Rumble">
+            <option value="Life of Riches">
+            <option value="Lights">
+            <option value="Lilith'S Inferno">
+            <option value="Lilith'S Passion">
+            <option value="Lilith'S Passion 15 Lines">
+            <option value="Lilith'S Passion Enhanced">
+            <option value="Lion Dance">
+            <option value="Little Bighorn">
+            <option value="Little Panda">
+            <option value="Live Slot">
+            <option value="Loch Ness Monster">
+            <option value="Long Pao">
+            <option value="Loot A Fruit">
+            <option value="Lord Merlin And the Lady of the Lake">
+            <option value="Lordi Reel Monsters">
+            <option value="Los Muertos">
+            <option value="Lost">
+            <option value="Lost Boys Loot">
+            <option value="Lost Chapter">
+            <option value="Lost City of the Djinn">
+            <option value="Lost Relics">
+            <option value="Lost Treasure">
+            <option value="Lost Vegas">
+            <option value="Lots A Loot">
+            <option value="Lotus Kingdom">
+            <option value="Lotus Love">
+            <option value="Love Guru">
+            <option value="Love Island">
+            <option value="Lucha Legends">
+            <option value="Lucha Maniacs">
+            <option value="Lucky Babies">
+            <option value="Lucky Boy">
+            <option value="Lucky Clover">
+            <option value="Lucky Coins">
+            <option value="Lucky Diamonds">
+            <option value="Lucky Dragon">
+            <option value="Lucky Dragons">
+            <option value="Lucky Easter">
+            <option value="Lucky Firecracker">
+            <option value="Lucky Fish">
+            <option value="Lucky Fortune">
+            <option value="Lucky Fortune Cat">
+            <option value="Lucky Gems">
+            <option value="Lucky Halloween">
+            <option value="Lucky Koi">
+            <option value="Lucky Lady">
+            <option value="Lucky Lands">
+            <option value="Lucky Leprechaun">
+            <option value="Lucky Leprechaun">
+            <option value="Lucky Lightning">
+            <option value="Lucky Links">
+            <option value="Lucky Little Devil">
+            <option value="Lucky Little Gods">
+            <option value="Lucky Lucky Dice 1">
+            <option value="Lucky Lucky Dice 2">
+            <option value="Lucky Lucky Dice 3">
+            <option value="Lucky Lucky Streak 1">
+            <option value="Lucky Lucky Streak 2">
+            <option value="Lucky Lucky Streak 3">
+            <option value="Lucky Mahjong Box">
+            <option value="Lucky Miners">
+            <option value="Lucky Mrs Patrick">
+            <option value="Lucky New Year">
+            <option value="Lucky Oktoberfest">
+            <option value="Lucky Queen">
+            <option value="Lucky Reels">
+            <option value="Lucky Seven">
+            <option value="Lucky Snowy Catch">
+            <option value="Lucky Stars">
+            <option value="Lucky Streak">
+            <option value="Lucky Streaks">
+            <option value="Lucky Stripes">
+            <option value="Lucky Symbols">
+            <option value="Lucky Tropics">
+            <option value="Lucky Twins">
+            <option value="Lucky Valentine">
+            <option value="Lucky Wizard">
+            <option value="Lucky, Grace & Charm">
+            <option value="Lunapark">
+            <option value="Luxury Life">
+            <option value="Luxury Rome">
+            <option value="Macarons">
+            <option value="Mad Cars">
+            <option value="Mad Men">
+            <option value="Mad Scientist">
+            <option value="Madame Destiny">
+            <option value="Madame Destiny Megaways">
+            <option value="Madame Ink">
+            <option value="Madder Scientist">
+            <option value="Mafia Syndicate">
+            <option value="Magic Apple 2">
+            <option value="Magic Ball Multichance">
+            <option value="Magic Crystals">
+            <option value="Magic Destiny">
+            <option value="Magic Dragon">
+            <option value="Magic Fruits">
+            <option value="Magic Fruits Deluxe">
+            <option value="Magic Gate">
+            <option value="Magic Hot">
+            <option value="Magic Hot Deluxe">
+            <option value="Magic Hunter">
+            <option value="Magic Journey">
+            <option value="Magic Magic Fruits 27">
+            <option value="Magic Magic Fruits 4">
+            <option value="Magic Magic Fruits 81">
+            <option value="Magic Magic Hot 4">
+            <option value="Magic Magic Stars">
+            <option value="Magic Magic Stars 3">
+            <option value="Magic Magic Stars 5">
+            <option value="Magic Magic Stars 6">
+            <option value="Magic Magic Stars 9">
+            <option value="Magic Money Maze">
+            <option value="Magic Portals">
+            <option value="Magic Queens">
+            <option value="Magic Ring Deluxe">
+            <option value="Magic Spinners">
+            <option value="Magic Spins">
+            <option value="Magic Stars">
+            <option value="Magic Stone">
+            <option value="Magic Target">
+            <option value="Magic Target Deluxe">
+            <option value="Magic the Ring">
+            <option value="Magic Unicorn">
+            <option value="Magician'S Secrets">
+            <option value="Mahjong 88">
+            <option value="Mahjong House">
+            <option value="Majestic Christmas Edition">
+            <option value="Majestic King">
+            <option value="Majestic Megaways">
+            <option value="Majestic Megaways Extreme 4">
+            <option value="Majestic Treasures">
+            <option value="Major Millions Reel">
+            <option value="Mamma 2D">
+            <option value="Mamma Mia">
+            <option value="Manhattan Goes Wild">
+            <option value="Maniac House">
+            <option value="Masquerade">
+            <option value="Master Chen'S Fortune">
+            <option value="Master Joker">
+            <option value="Master Panda">
+            <option value="Matsuri">
+            <option value="Max Megaways">
+            <option value="May Dance Festival">
+            <option value="Mayan Gods">
+            <option value="Mayan Gods ">
+            <option value="Mayan Magic Wildfire">
+            <option value="Mayan Ritual">
+            <option value="Mayana">
+            <option value="Maze Escape Megaways">
+            <option value="Maze For Power">
+            <option value="Medusa Hot 1">
+            <option value="Meet the Meerkats">
+            <option value="Mega Don">
+            <option value="Mega Dragon">
+            <option value="Mega Gems">
+            <option value="Mega Glam Life">
+            <option value="Mega Jade">
+            <option value="Mega Joker">
+            <option value="Mega Masks">
+            <option value="Mega Moolah">
+            <option value="Mega Moolah Isis">
+            <option value="Mega Power Heroes">
+            <option value="Mega Pyramid">
+            <option value="Mega Rise">
+            <option value="Megaboy">
+            <option value="Mental">
+            <option value="Mercy of the Gods">
+            <option value="Merlin And Ice Queen Morgana">
+            <option value="Merlin'S Grimoire">
+            <option value="Merlin'S Magic Mirror">
+            <option value="Merlin'S Revenge Megaways">
+            <option value="Merlins Millions">
+            <option value="Mermaid Treasure">
+            <option value="Mermaid'S Diamond">
+            <option value="Mermaid'S Millions">
+            <option value="Merry Scary Christmas">
+            <option value="Merry Xmas">
+            <option value="Mexico Wins">
+            <option value="Mexomax">
+            <option value="Miami Beach">
+            <option value="Miami Multiplier">
+            <option value="Miami Nights">
+            <option value="Micro Micro Knights">
+            <option value="Midas Gold">
+            <option value="Midas Golden Touch">
+            <option value="Middle Earth">
+            <option value="Midnight Marauder">
+            <option value="Might of Ra">
+            <option value="Mighty Arthur">
+            <option value="Mighty Dragon">
+            <option value="Mighty Kong">
+            <option value="Mighty Stallion">
+            <option value="Milky Ways">
+            <option value="Million Cents">
+            <option value="Million Coins Respin">
+            <option value="Millionaire">
+            <option value="Miner Donkey Trouble">
+            <option value="Mines of Gold">
+            <option value="Mining Fever">
+            <option value="Minotaurus">
+            <option value="Mischievous Pirates">
+            <option value="Misery Mining">
+            <option value="Mission Cash">
+            <option value="Moby Dick">
+            <option value="Mochimon">
+            <option value="Moe Moe Cuisine Ver. China">
+            <option value="Mona Lisa Jewels">
+            <option value="Money Farm">
+            <option value="Money Farm 2">
+            <option value="Money Mariachi Infinity Reels">
+            <option value="Money Mouse">
+            <option value="Money Train">
+            <option value="Money Train 2">
+            <option value="Money Train 3">
+            <option value="Mongol Treasures">
+            <option value="Monkey 27">
+            <option value="Monkey Gold">
+            <option value="Monkey Madness">
+            <option value="Monkey Mania">
+            <option value="Monkey Pirates">
+            <option value="Monkey Warrior">
+            <option value="Monkey'S Gold">
+            <option value="Monkeypop">
+            <option value="Monster Blox">
+            <option value="Monster Lab">
+            <option value="Monster Madness">
+            <option value="Monster Munchies">
+            <option value="Monster Pop">
+            <option value="Monster Quest">
+            <option value="Monster Superlanche">
+            <option value="Monster Wheels">
+            <option value="Monsters Scratch">
+            <option value="Moon Princess">
+            <option value="Moon Princess 100">
+            <option value="Moonshine">
+            <option value="More Cash">
+            <option value="More Fresh Fruits">
+            <option value="More Gold Diggin">
+            <option value="Morgana Megaways">
+            <option value="Moriarty Megaways">
+            <option value="Motorhead">
+            <option value="Mount M">
+            <option value="Mr Toxicus">
+            <option value="Mr Vegas">
+            <option value="Muerto En Mictlan">
+            <option value="Muertos Multiplier Megaways">
+            <option value="Multifly">
+            <option value="Multiplier Odyssey">
+            <option value="Mummy">
+            <option value="Munchkins">
+            <option value="Musketeer Slot">
+            <option value="Mustang Gold">
+            <option value="Mysterious">
+            <option value="Mysterious Egypt">
+            <option value="Mystery Jack">
+            <option value="Mystery Jack Deluxe">
+            <option value="Mystery Joker">
+            <option value="Mystery Joker 6000">
+            <option value="Mystery Museum">
+            <option value="Mystery of Longwei">
+            <option value="Mystery Planet">
+            <option value="Mystery Reels">
+            <option value="Mystery Reels Megaways">
+            <option value="Mystery Reels Power Reels">
+            <option value="Mystic Chief">
+            <option value="Mystic Orbs">
+            <option value="Myth">
+            <option value="Mythic Maiden">
+            <option value="Narcos">
+            <option value="Naughty Girls Cabaret">
+            <option value="Necromancer">
+            <option value="Ned His Friends">
+            <option value="Nefertiti Hyperways">
+            <option value="Neon City">
+            <option value="Neon Fruit Cityscape">
+            <option value="Neon Jungle">
+            <option value="Neon Staxx">
+            <option value="Nero'S Fortune">
+            <option value="New Year Riches">
+            <option value="Niagara Falls">
+            <option value="Night At Ktv">
+            <option value="Night Club 81">
+            <option value="Night Wolves">
+            <option value="Nightfall">
+            <option value="Nights of Egypt">
+            <option value="Nights of Fortune">
+            <option value="Nights of Magic">
+            <option value="Nikola Incredible Machine">
+            <option value="Ninja Chef">
+            <option value="Ninja Fruits">
+            <option value="Ninja Ways">
+            <option value="Nirvana">
+            <option value="Nitro Madness">
+            <option value="Norns Fate">
+            <option value="North Guardians">
+            <option value="North Storm">
+            <option value="Northern Sky">
+            <option value="Nova Gems">
+            <option value="Nrg Sound">
+            <option value="Nsync Pop">
+            <option value="Nuke World">
+            <option value="Number One">
+            <option value="Nutcracker">
+            <option value="Nuts Commander">
+            <option value="Ocean Fortune">
+            <option value="Ocean Reef">
+            <option value="Oceans Treasure">
+            <option value="Octobeer Fortune">
+            <option value="Octoberfest">
+            <option value="Odd One In">
+            <option value="Odin Protector of Realms">
+            <option value="Odin'S Gamble - Mimir'S Well">
+            <option value="Ogre Empire">
+            <option value="Oh Catrina">
+            <option value="Oink Country Love">
+            <option value="Oktober Spin Fest">
+            <option value="Oktoberfest">
+            <option value="Old Fisherman">
+            <option value="Olympia">
+            <option value="Once A Time">
+            <option value="Only With You">
+            <option value="Onmyoji Sushicade">
+            <option value="Orient Express">
+            <option value="Origami">
+            <option value="Origins of Lilith">
+            <option value="Our Days">
+            <option value="Outlaws Inc">
+            <option value="Owls">
+            <option value="Ozwin'S Jackpots">
+            <option value="Ozzy Osbourne">
+            <option value="Pac Man">
+            <option value="Pachamama">
+            <option value="Pack & Cash">
+            <option value="Paco Popping Peppers">
+            <option value="Pacquaio Punch Ko">
+            <option value="Pagoda of Fortune">
+            <option value="Paint">
+            <option value="Panda'S Fortune">
+            <option value="Panda'S Fortune 2">
+            <option value="Panda'S Run">
+            <option value="Panther Queen">
+            <option value="Panthers Reign">
+            <option value="Paranormal Activity">
+            <option value="Paris Nights">
+            <option value="Parthenon Quest For Immortality">
+            <option value="Peaky Blinders">
+            <option value="Peaky Blinders 2">
+            <option value="Pearl Bay">
+            <option value="Pearl Lagoon">
+            <option value="Pearl the Orient">
+            <option value="Pearls of India ">
+            <option value="Peek-A-Boo">
+            <option value="Peking Luck">
+            <option value="Penguin City">
+            <option value="Penny Christmas Edition">
+            <option value="Penny Easter Edition">
+            <option value="Penny Fruits">
+            <option value="Peony Ladies">
+            <option value="Perfect Gems">
+            <option value="Persian Fortune">
+            <option value="Peter Lost Boys">
+            <option value="Peter'S Universe">
+            <option value="Phantom'S Mirror">
+            <option value="Pharao'S Riches">
+            <option value="Pharao'S Riches Golden Nights">
+            <option value="Pharao'S Riches Red Hot Fire Pot">
+            <option value="Pharaohs And Aliens">
+            <option value="Phoenix">
+            <option value="Phoenix Forge">
+            <option value="Phoenix Paradise">
+            <option value="Phoenix Power Reels">
+            <option value="Phoenix Princess">
+            <option value="Phoenix Reborn">
+            <option value="Phoenix Sun">
+            <option value="Photo Safari">
+            <option value="Pied Piper">
+            <option value="Piggy Bank Bills">
+            <option value="Piggy Bank Farm">
+            <option value="Piggy Bank Millionaire">
+            <option value="Piggy Bjorn">
+            <option value="Piggy Pirates">
+            <option value="Piggy Riches">
+            <option value="Piggy Riches Megaways">
+            <option value="Pilgrim of Dead">
+            <option value="Pillars of Asgard">
+            <option value="Pimped">
+            <option value="Pinata Fiesta">
+            <option value="Pinocchio">
+            <option value="Pirate Booty">
+            <option value="Pirate Gold">
+            <option value="Pirate Gold Deluxe">
+            <option value="Pirate Golden Age">
+            <option value="Pirate Kingdom Megaways">
+            <option value="Pirate Pirate Mutiny">
+            <option value="Pirate the East">
+            <option value="Pirates 2 - Mutiny">
+            <option value="Pirates Bounty Megaways">
+            <option value="Pirates Charm">
+            <option value="Pirates For Gold">
+            <option value="Pirates Smugglers Paradise">
+            <option value="Pixie Wings">
+            <option value="Pixies Vs Pirates">
+            <option value="PIZZA! PIZZA? PIZZA!">
+            <option value="Plagues of Egypt">
+            <option value="Planet Fortune">
+            <option value="Planet the Apes">
+            <option value="Platoon">
+            <option value="Platoon Wild Progressive">
+            <option value="Platooners On Platooners">
+            <option value="Playboy">
+            <option value="Playboy Gold">
+            <option value="Plunderland">
+            <option value="Poison Eve">
+            <option value="Pokamon">
+            <option value="Poke the Guy">
+            <option value="Poker King">
+            <option value="Polar Paws">
+            <option value="Pollen Party">
+            <option value="Poltava Va Poltava">
+            <option value="Pond of Koi">
+            <option value="Pop">
+            <option value="Poprocks">
+            <option value="Pots of Luck">
+            <option value="Power Dragon">
+            <option value="Power Force Heroes">
+            <option value="Power Force Villains">
+            <option value="Power of Asia">
+            <option value="Power of Elements">
+            <option value="Power of Gods - Hades">
+            <option value="Power of Gods - Medusa">
+            <option value="Power of Gods - Valhalla">
+            <option value="Power of Gods : Medusa Easter">
+            <option value="Power of Gods Egypt">
+            <option value="Power of Thor Megaways">
+            <option value="Power Plant">
+            <option value="Power Pup Heroes">
+            <option value="Power the Pantheon">
+            <option value="Powerspin">
+            <option value="Precious Treasures">
+            <option value="Pretty Kitty">
+            <option value="Primal Megaways">
+            <option value="Primal Spirits">
+            <option value="Prime Property">
+            <option value="Prime Zone">
+            <option value="Prism of Gems">
+            <option value="Prison Escape">
+            <option value="Prissy Princess">
+            <option value="Professor Clank'S Combinator">
+            <option value="Prohibition">
+            <option value="Propaganda">
+            <option value="Prosperity Ox">
+            <option value="Prosperity Palace">
+            <option value="Puebla Parade">
+            <option value="Pumpkin Smash">
+            <option value="Punk Rocker">
+            <option value="Punk Toilet">
+            <option value="Puppy Love Plus">
+            <option value="Pushy Cats">
+            <option value="Puss'N Boots">
+            <option value="Pyramid Bonanza">
+            <option value="Pyramid For Immortality">
+            <option value="Pyramid King">
+            <option value="Pyramid Treasure">
+            <option value="Pyramids of Dead ">
+            <option value="Pyramyth">
+            <option value="Queen of Atlantis">
+            <option value="Queen of Gods">
+            <option value="Queen of Gold">
+            <option value="Queen of the Sun">
+            <option value="Queen the Sea">
+            <option value="Queen Wonderland Megaways">
+            <option value="Queen'S Day Tilt">
+            <option value="Queenie">
+            <option value="Ra'S Legend">
+            <option value="Rabbit Hole Riches">
+            <option value="Rabbit the Hat">
+            <option value="Race the Ace">
+            <option value="Racetrack Riches">
+            <option value="Rage of the Seas">
+            <option value="Rage To Riches">
+            <option value="Raging Reindeer">
+            <option value="Raging Rex">
+            <option value="Raging Rex 2">
+            <option value="Rainbow 3X3">
+            <option value="Rainbow Gold">
+            <option value="Rainbow Jackpots">
+            <option value="Rainbow Power Lines">
+            <option value="Rainbow Ryan">
+            <option value="Rainbow Wilds">
+            <option value="Rainbrew">
+            <option value="Rainforest Magic">
+            <option value="Rally 4 Riches">
+            <option value="Rambo">
+            <option value="Ramses Book">
+            <option value="Ramses Book Double Rush">
+            <option value="Ramses Book Golden Nights">
+            <option value="Ramses Book Red Hot Fire Pot">
+            <option value="Ramses Book Respins of Amun-Re">
+            <option value="Ramses Rising">
+            <option value="Ramses Treasure">
+            <option value="Ramses' Revenge">
+            <option value="Raptor Doublemax">
+            <option value="Rapunzel'S Tower">
+            <option value="Raven'S Eye">
+            <option value="Razor Shark">
+            <option value="Razor Tooth">
+            <option value="Reactoonz">
+            <option value="Reactoonz 2">
+            <option value="Reactor">
+            <option value="Red Cliff">
+            <option value="Red Diamond">
+            <option value="Red Dragon">
+            <option value="Red Dragon Wild">
+            <option value="Red Lights">
+            <option value="Red Queen Blackjack">
+            <option value="Red Seven">
+            <option value="Red Square Games">
+            <option value="Reef Run">
+            <option value="Reel Circus">
+            <option value="Reel Fighters">
+            <option value="Reel Gems">
+            <option value="Reel Heist">
+            <option value="Reel Rush 2">
+            <option value="Reel Spinner">
+            <option value="Reel Splitter">
+            <option value="Reel Steal">
+            <option value="Reel Strike">
+            <option value="Reel Talent">
+            <option value="Reel Thunder">
+            <option value="Reels of Wealth">
+            <option value="Release the Kraken">
+            <option value="Release the Kraken 2">
+            <option value="Relic Hunters And the Book of Faith">
+            <option value="Relic of Faith">
+            <option value="Remember Gulag">
+            <option value="Reptoids">
+            <option value="Resident 3D">
+            <option value="Respin Circus">
+            <option value="Retro Diamond Glitz">
+            <option value="Retro Extreme Heat">
+            <option value="Retromania">
+            <option value="Return of the Dead">
+            <option value="Revenge of Cyborgs">
+            <option value="Reviving Love">
+            <option value="Revolution">
+            <option value="Revolution Patriot'S Fortune">
+            <option value="Rich Castle">
+            <option value="Rich of Madness">
+            <option value="Rich Reels">
+            <option value="Riches of Ra">
+            <option value="Riches of Robin">
+            <option value="Riches the Deep">
+            <option value="Richie In Vegas">
+            <option value="Riders of the Storm">
+            <option value="Ring of Odin">
+            <option value="Rio Stars">
+            <option value="Rip City">
+            <option value="Rise of Athena">
+            <option value="Rise of Dead">
+            <option value="Rise of Giza Powernudge">
+            <option value="Rise of Gods - Reckoning">
+            <option value="Rise of Horus">
+            <option value="Rise of Maya">
+            <option value="Rise of Merlin">
+            <option value="Rise of Olympus">
+            <option value="Rise of Samurai">
+            <option value="Rise of Samurai Iii">
+            <option value="Rise of the Mountain King">
+            <option value="Risqu� Megaways">
+            <option value="Road Cash">
+            <option value="Road Rage">
+            <option value="Robbie Jones">
+            <option value="Robin Hood">
+            <option value="Robin of Sherwood">
+            <option value="Robin Shifting Riches">
+            <option value="Robin the Good">
+            <option value="Robinson">
+            <option value="Robo Smash Christmas">
+            <option value="Roboslots">
+            <option value="Rocco Gallo">
+            <option value="Rock 'N' Lock">
+            <option value="Rock Bottom">
+            <option value="Rock Vegas">
+            <option value="Rockabilly Wolves">
+            <option value="Rocket Men">
+            <option value="Rocket Reels">
+            <option value="Rockstar">
+            <option value="Rodent Riot Megaways">
+            <option value="Rolling In Gold">
+            <option value="Roman Legion">
+            <option value="Roman Legion Bally Wulff">
+            <option value="Roman Legion Double Rush">
+            <option value="Roman Legion Golden Nights">
+            <option value="Roman Legion Red Hot Fire Pot">
+            <option value="Roman Legion Xtreme">
+            <option value="Roman Legion Xtreme Red Hot Fire Pot">
+            <option value="Rome Warrior">
+            <option value="Rome Warrior">
+            <option value="Romeo">
+            <option value="Romeo And Juliet">
+            <option value="Roo Riches">
+            <option value="Rooks Revenge">
+            <option value="Rosh Immortality Cube">
+            <option value="Rotiki">
+            <option value="Rotten">
+            <option value="Route 777">
+            <option value="Royal Cash">
+            <option value="Royal Crown">
+            <option value="Royal Double">
+            <option value="Royal Frog">
+            <option value="Royal Gems">
+            <option value="Royal Gems">
+            <option value="Royal Masquerade">
+            <option value="Royal Potato">
+            <option value="Royal Reels">
+            <option value="Royal Win">
+            <option value="Royal Wins">
+            <option value="Royale With Cheese Megaways">
+            <option value="Ruby Casino Queen">
+            <option value="Ruyi'S the Palace">
+            <option value="Sabaton">
+            <option value="Safari">
+            <option value="Safari King">
+            <option value="Safari of Wealth">
+            <option value="Safari Sam">
+            <option value="Safari Samba">
+            <option value="Sahara Nights">
+            <option value="Saharas Dreams">
+            <option value="Sails of Gold">
+            <option value="Sakura Fortune">
+            <option value="Sam the Beach">
+            <option value="Samba Carnival">
+            <option value="Samurai Girl">
+            <option value="Samurai'S Path">
+            <option value="San Gong">
+            <option value="San Quentin Xways">
+            <option value="Santa">
+            <option value="Santa Paws">
+            <option value="Santa Vs Rudolf">
+            <option value="Santa Wild Helpers">
+            <option value="Santa'S Farm">
+            <option value="Santa'S Great Gifts">
+            <option value="Santa'S Kiss">
+            <option value="Santa'S Wild Ride">
+            <option value="Santas'S Wonderland">
+            <option value="Satoshi'S Secret">
+            <option value="Savanna Moon">
+            <option value="Savannah King">
+            <option value="Saxon">
+            <option value="Scarab Queen ">
+            <option value="Scattered Skies">
+            <option value="Scattered To Hell">
+            <option value="Scratchy Bit">
+            <option value="Scroll of Dead">
+            <option value="Scrolls of Ra">
+            <option value="Scrooge">
+            <option value="Scrooge Megaways">
+            <option value="Scruffy Duck">
+            <option value="Scudamore'S Super Stakes">
+            <option value="Sea Hunter">
+            <option value="Sea World">
+            <option value="Season Sisters">
+            <option value="Seasons">
+            <option value="Second Strike">
+            <option value="Secret Cupcakes">
+            <option value="Secret of Dead">
+            <option value="Secret Potion">
+            <option value="Secret Romance">
+            <option value="Secret Santa">
+            <option value="Secret the Stones">
+            <option value="Secrets of Atlantis">
+            <option value="Secrets of Christmas">
+            <option value="Selfie">
+            <option value="Serengeti Kings">
+            <option value="Serial">
+            <option value="Serpent Shrine">
+            <option value="Seven Sins">
+            <option value="Sevens High">
+            <option value="Sevens High Ultra">
+            <option value="Shake It">
+            <option value="Shaman">
+            <option value="Shamrock Miner">
+            <option value="Shanghai Beauty">
+            <option value="Shaolin">
+            <option value="Shaolin'S Tiger">
+            <option value="Shark Meet">
+            <option value="She Ninja Suzu">
+            <option value="Sheriff of Nottingham">
+            <option value="Sherlock In Bohemia">
+            <option value="Sherlock'S Casebook">
+            <option value="Shiba Inu">
+            <option value="Shield of Athena ">
+            <option value="Shifting Seas">
+            <option value="Shogun Bots">
+            <option value="Shogun of Time">
+            <option value="Shogun'S Secret">
+            <option value="Shogun'S Secret Crazy Chicken Shooter">
+            <option value="Show the Mummy">
+            <option value="Si Xiang">
+            <option value="Sic Bo">
+            <option value="Sidewinder">
+            <option value="Signs of Fortune">
+            <option value="Silverback Gold">
+            <option value="Sin City Nights">
+            <option value="Sinbad">
+            <option value="Sindbad">
+            <option value="Sinister Circus">
+            <option value="Siren'S Kingdom">
+            <option value="Siren'S Treasure Lines">
+            <option value="Siren'S Treasures">
+            <option value="Sisters of the Sun">
+            <option value="Six Acrobats">
+            <option value="Sizable Win">
+            <option value="Sizzling 777">
+            <option value="Sizzling Deluxe">
+            <option value="Sizzling Kingdom : Bison">
+            <option value="Sizzling Spins">
+            <option value="Skulls of Legend">
+            <option value="Skulls Up">
+            <option value="Sky Barons">
+            <option value="Slammin 7S">
+            <option value="Slot Bound">
+            <option value="Slot Jam">
+            <option value="Slot of Money">
+            <option value="Slotfather">
+            <option value="Slotnroll">
+            <option value="Slotomoji">
+            <option value="Slots Angels">
+            <option value="Slotsaurus">
+            <option value="Smoking Dogs">
+            <option value="Smugglers Cove">
+            <option value="Snail Race">
+            <option value="Snake And Ladders Megadice">
+            <option value="Snake Arena">
+            <option value="Snow the Features">
+            <option value="Snowing Luck">
+            <option value="Soccer">
+            <option value="Soccer All Star">
+            <option value="Soccer Babes">
+            <option value="Soccer Slots">
+            <option value="Space Arcade">
+            <option value="Space Battle">
+            <option value="Space Christmas">
+            <option value="Space Galaxy">
+            <option value="Space Gem">
+            <option value="Space Lords">
+            <option value="Space Miners">
+            <option value="Space Race">
+            <option value="Space Spins">
+            <option value="Space Wars">
+            <option value="Space Wars 2 Powerpoints">
+            <option value="Spanish Blackjack Gold">
+            <option value="Sparkling Fresh">
+            <option value="Sparks">
+            <option value="Sparky & Shortz">
+            <option value="Spartacus Megaways">
+            <option value="Spartan Heroes">
+            <option value="Spartan King">
+            <option value="Spartans Legacy">
+            <option value="Special Forces">
+            <option value="Spectrum">
+            <option value="Speed Cash">
+            <option value="Spellcast">
+            <option value="Spin Joker Spin">
+            <option value="Spin Party">
+            <option value="Spin Reels">
+            <option value="Spina Colada">
+            <option value="Spi�ata Grande">
+            <option value="Spinball">
+            <option value="Spinfinity Man">
+            <option value="Spinions Beach Party">
+            <option value="Spinions Game Day">
+            <option value="Spinning Lights">
+            <option value="Spinoween">
+            <option value="Spinsane">
+            <option value="Spirit of Adventure">
+            <option value="Spirit of Egypt Hold And Win">
+            <option value="Spirit of the Beast">
+            <option value="Spooky Family">
+            <option value="Spring Break">
+            <option value="Spring Tails">
+            <option value="Sprinkle">
+            <option value="Squealin Riches">
+            <option value="Stack'Em">
+            <option value="Stacks O'Gold">
+            <option value="Stage 888">
+            <option value="Stampede">
+            <option value="Star Bounty">
+            <option value="Star Cash">
+            <option value="Star Fall">
+            <option value="Star Fortune">
+            <option value="Star Joker">
+            <option value="Star Pirates Code">
+            <option value="Star Pops">
+            <option value="Star Struck">
+            <option value="Starburst">
+            <option value="Stardust">
+            <option value="Starlight Princess">
+            <option value="Stars N'Sweet">
+            <option value="Starz Megaways">
+            <option value="Stash the Titans">
+            <option value="Steam Tower">
+            <option value="Steaming Reels">
+            <option value="Steampunk Big City">
+            <option value="Stellar Spins">
+            <option value="Stick'Em">
+            <option value="Stickers">
+            <option value="Sticky Bandits">
+            <option value="Sticky Bandits 3 Most Wanted">
+            <option value="Sticky Bandits Trail of Blood">
+            <option value="Sticky Diamonds">
+            <option value="Sticky Diamonds Double Rush">
+            <option value="Sticky Joker">
+            <option value="Sticky Wild Return">
+            <option value="Stinky Socks">
+            <option value="Stone Age">
+            <option value="Stoned Joker">
+            <option value="Stoned Joker 5">
+            <option value="Storming Flame">
+            <option value="Story Expanded Edition">
+            <option value="Story of Hercules">
+            <option value="Story of Medusa">
+            <option value="Street Fighter Ii">
+            <option value="Street Magic">
+            <option value="Street Racer">
+            <option value="Strip To Win">
+            <option value="Strolling Cubic Fruits">
+            <option value="Stumpy Mcdoodles">
+            <option value="Stunning 27">
+            <option value="Stunning Hot">
+            <option value="Stunning Hot Deluxe">
+            <option value="Stunning Snow">
+            <option value="Sugar Glider">
+            <option value="Sugar Glider Dice">
+            <option value="Sugar Parade">
+            <option value="Sugar Rush">
+            <option value="Sugar Trail">
+            <option value="Sugarpop">
+            <option value="Sugarpop 2">
+            <option value="Sumi E">
+            <option value="Summer Splash">
+            <option value="Sumo Spins">
+            <option value="Sun of Egypt 3">
+            <option value="Sun of Fortune">
+            <option value="Sunny Shores">
+            <option value="Sunset">
+            <option value="Suntide">
+            <option value="Super 7">
+            <option value="Super 7S">
+            <option value="Super Boom">
+            <option value="Super Diamond Wild">
+            <option value="Super Fast Hot Hot">
+            <option value="Super Flip">
+            <option value="Super Hamster">
+            <option value="Super Heroes">
+            <option value="Super Hot">
+            <option value="Super Hot Respin">
+            <option value="Super Joker">
+            <option value="Super Keno">
+            <option value="Super Lucky Reels">
+            <option value="Super Mask">
+            <option value="Super Progressive">
+            <option value="Super Stars ">
+            <option value="Super Sweets">
+            <option value="Super Wilds">
+            <option value="Super X">
+            <option value="Superstars">
+            <option value="Surfin Reels">
+            <option value="Surprising 7">
+            <option value="Sushi">
+            <option value="Sushi Bar">
+            <option value="Sushicade">
+            <option value="Sweet Alchemy">
+            <option value="Sweet Bonanza">
+            <option value="Sweet Bonanza Xmas">
+            <option value="Sweet Rush Megaways">
+            <option value="Sweety Honey Fruity">
+            <option value="Swipe And Roll">
+            <option value="Sword of Ares">
+            <option value="Sword of Khans">
+            <option value="Taboo">
+            <option value="Taco Brothers">
+            <option value="Taco Brothers Derailed">
+            <option value="Taco Saving Christmas">
+            <option value="Tahiti Gold">
+            <option value="Tailgating">
+            <option value="Take Santa'S Shop">
+            <option value="Take the Bank">
+            <option value="Tales Dr Dolittle">
+            <option value="Tales of Asgard - Freya'S Wedding">
+            <option value="Tales of Asgard - Loki'S Fortune">
+            <option value="Tales of Egypt">
+            <option value="Talismans of Fortune">
+            <option value="Tally Ho">
+            <option value="Tarot Deck">
+            <option value="Tarzan">
+            <option value="Taste of China">
+            <option value="Tasty Treats">
+            <option value="Tasty Win">
+            <option value="Templar Tumble">
+            <option value="Templar Tumble">
+            <option value="Templar Tumble 2 Dream Drop">
+            <option value="Temple Cats">
+            <option value="Temple of Fortune">
+            <option value="Temple of Nudges">
+            <option value="Temple of Wealth">
+            <option value="Temple Quest">
+            <option value="Temple Stacks">
+            <option value="Temple Tumble">
+            <option value="Temple Tumble 2">
+            <option value="Temujin Treasure">
+            <option value="Ten Elements">
+            <option value="Tennis Champions">
+            <option value="Tequila Fiesta">
+            <option value="Terminator 2">
+            <option value="Terracota Wilds">
+            <option value="Tesla">
+            <option value="Tesla Jolt">
+            <option value="Testament">
+            <option value="Texas Rangers Reward">
+            <option value="That'S Rich">
+            <option value="The Advisors Alliance">
+            <option value="The Armed Bandit">
+            <option value="The Best Witch">
+            <option value="The Book Beyond">
+            <option value="The Border">
+            <option value="The Bowery Boys">
+            <option value="The CatfaTher">
+            <option value="The CatfaTher Part I">
+            <option value="The Champions">
+            <option value="The Chicken Escape">
+            <option value="The China Shop">
+            <option value="The Cluster Pays">
+            <option value="The Creepy Carnival">
+            <option value="The Cup">
+            <option value="The Curious Cabinet">
+            <option value="The Da Vinci Device">
+            <option value="The Dalai Panda">
+            <option value="The Dog House">
+            <option value="The Dog House Megaways">
+            <option value="The Dog House Multihold">
+            <option value="The Emirate">
+            <option value="The Epic Yourney">
+            <option value="The Equalizer">
+            <option value="The Expandable">
+            <option value="The Exterminator">
+            <option value="The Faces of Freya">
+            <option value="The Fortune Pig">
+            <option value="The Ghouls">
+            <option value="The Giant">
+            <option value="The Golden City">
+            <option value="The Golden Rat">
+            <option value="The Goonies Return">
+            <option value="The Grand">
+            <option value="The Great Conflict">
+            <option value="The Great Pigsby">
+            <option value="The Great Stick-Up">
+            <option value="The Great Wall">
+            <option value="The Green Knight">
+            <option value="The Hand of Midas">
+            <option value="The Heat Is On">
+            <option value="The Hidden Temple">
+            <option value="The Invisible Man">
+            <option value="The King ">
+            <option value="The King ">
+            <option value="The King Panda">
+            <option value="The Knight Slot">
+            <option value="The Lab">
+            <option value="The Land of Heroes">
+            <option value="The Land of Heroes Golden Nights">
+            <option value="The Last Sundown">
+            <option value="The Legend of Shaolin">
+            <option value="The Lost City of Gold">
+            <option value="The Machine Plus">
+            <option value="The Magic Cauldron - Enchanted Brew">
+            <option value="The Magic Shoppe">
+            <option value="The Monster Killer">
+            <option value="The Mummy Win Hunters Epicways">
+            <option value="The Ninja">
+            <option value="The of Golden Owl of AThena">
+            <option value="The of Mystery of Eldorado">
+            <option value="The One Armed Bandit">
+            <option value="The Paying Piano Club">
+            <option value="The Phantom of The Opera">
+            <option value="The Rave">
+            <option value="The Respinners">
+            <option value="The Royal Family">
+            <option value="The Shadow Order">
+            <option value="The Shimmering Woods">
+            <option value="The Slavs">
+            <option value="The SlotfaTher Part Ii">
+            <option value="The Sword And The Grail">
+            <option value="The Three Musketeers">
+            <option value="The Tipsy Tourist">
+            <option value="The Train Robbery">
+            <option value="The True Sheriff">
+            <option value="The Twisted Circus">
+            <option value="The Ultimate 5">
+            <option value="The Vampires">
+            <option value="The Vikings">
+            <option value="The Warriors">
+            <option value="The White Snake">
+            <option value="The Wild Chase">
+            <option value="The Wild Chase Tokyo Go">
+            <option value="The Wild Hatter">
+            <option value="The Wild Machine">
+            <option value="The Wiz">
+            <option value="The Wolf'S Bane">
+            <option value="Theme of Fortune">
+            <option value="Thor Hammer Time">
+            <option value="Thor Infinity Reels">
+            <option value="Thor Stormlord">
+            <option value="Thor'S Vengeance">
+            <option value="Thors Lightning">
+            <option value="Three Kingdoms">
+            <option value="Three Kingdoms ">
+            <option value="Three Kings">
+            <option value="Three Musketeers">
+            <option value="Thrones of Persia">
+            <option value="Thunder Bird">
+            <option value="Thunder Screech">
+            <option value="Thunder Shield">
+            <option value="Thunderstruck">
+            <option value="Thunderstruck Ii">
+            <option value="Ticket the Stars">
+            <option value="Tiger Heart">
+            <option value="Tiger'S Charms">
+            <option value="Tiger'S Glory">
+            <option value="Tiger'S Glory Ultra">
+            <option value="Tiger'S Gold Hold And Win">
+            <option value="Tiger'S Tiger'S Claw">
+            <option value="Tiki Fruits">
+            <option value="Tiki Rainbow">
+            <option value="Tiki Runner 2 Doublemax">
+            <option value="Tiki Tumble">
+            <option value="Tikipop">
+            <option value="Time Spinners">
+            <option value="Time Travel Tigers">
+            <option value="Titan Thunder">
+            <option value="Titans of the Sun theia">
+            <option value="Tnt Tumble">
+            <option value="Tomb of Akhenaten">
+            <option value="Tomb of Nefertiti">
+            <option value="Tomb Raider">
+            <option value="Tombstone">
+            <option value="Tombstone Rip">
+            <option value="Tome of Madness">
+            <option value="Toshi Video Club">
+            <option value="Total Overdrive">
+            <option value="Totem Island">
+            <option value="Totem Lightning">
+            <option value="Totem Power Reels">
+            <option value="Tower Quest">
+            <option value="Tower Tumble">
+            <option value="Towering Fortunes">
+            <option value="Toys of Joy">
+            <option value="Tractor Beam">
+            <option value="Transylvanian Beauty">
+            <option value="Travelling Treasures India">
+            <option value="Treasure Heroes">
+            <option value="Treasure Horse">
+            <option value="Treasure Hunt">
+            <option value="Treasure Island">
+            <option value="Treasure Island">
+            <option value="Treasure Mine">
+            <option value="Treasure Nile">
+            <option value="Treasure of Horus">
+            <option value="Treasure of Shaman">
+            <option value="Treasure Room">
+            <option value="Treasure Skyland">
+            <option value="Treasure the Pyramids">
+            <option value="Treasure Wild">
+            <option value="Tree of Fortune">
+            <option value="Tree of Riches">
+            <option value="Tribe">
+            <option value="Tricky Brains">
+            <option value="Triple Dragons">
+            <option value="Triple Jokers">
+            <option value="Triple Royal Gold">
+            <option value="Triple Star">
+            <option value="Triple Tigers">
+            <option value="Troll Haven">
+            <option value="Troll Hunters">
+            <option value="Troll Hunters 2">
+            <option value="Troll'S Gold">
+            <option value="Trolls Bridge">
+            <option value="Tropical Bonanza">
+            <option value="Tropical Tiki">
+            <option value="True Grit Redemption">
+            <option value="True Illusions">
+            <option value="Trump It">
+            <option value="Trump It Deluxe">
+            <option value="Tunzamunni">
+            <option value="Turbo Play">
+            <option value="Turn It Up">
+            <option value="Turn Your Fortune">
+            <option value="Tut'S Twister">
+            <option value="Tweethearts">
+            <option value="Twerk">
+            <option value="Twin Spin">
+            <option value="Twin Spin Deluxe">
+            <option value="Twinkle Star">
+            <option value="Twisted Sister">
+            <option value="Tycoons Plus">
+            <option value="Ukiyo-E">
+            <option value="Ultimate Dream Team">
+            <option value="Ultimate Super Reels">
+            <option value="Ultra Fresh">
+            <option value="Undead Fortune">
+            <option value="Under the Bed">
+            <option value="Under the Sea">
+            <option value="Under the Sea ">
+            <option value="Under the Waves">
+            <option value="Undiness Deep">
+            <option value="Undying Passion">
+            <option value="Universal Phantom'S Curse">
+            <option value="Urartu">
+            <option value="Usa Flip">
+            <option value="Ussr Grocery">
+            <option value="Ussr Seventies">
+            <option value="Valhalla">
+            <option value="Valkyrie">
+            <option value="Valley of Pharaohs">
+            <option value="Valley of the Gods">
+            <option value="Valley of the Gods 2">
+            <option value="Vampire Fortune">
+            <option value="Vampire Hunters">
+            <option value="Vampire Senpai">
+            <option value="Vampires Vs Wolves">
+            <option value="Vault of Anubis">
+            <option value="Vegas Diamonds">
+            <option value="Vegas Dreams">
+            <option value="Vegas High Roller">
+            <option value="Vegas Hot">
+            <option value="Vegas Hot 81">
+            <option value="Vegas Magic">
+            <option value="Vegas Nights">
+            <option value="Vegas Nights">
+            <option value="Vegas Reels Ii">
+            <option value="Vegas Vip Gold">
+            <option value="Vegas Wins">
+            <option value="Venetia">
+            <option value="Very Big Goat">
+            <option value="Vicky Ventura">
+            <option value="Victorious">
+            <option value="Victorious Max">
+            <option value="Viking Age">
+            <option value="Viking Clash">
+            <option value="Viking Quest">
+            <option value="Viking Runecraft">
+            <option value="Viking Runes">
+            <option value="Viking Voyage">
+            <option value="Viking'S Glory">
+            <option value="Vikings">
+            <option value="Vikings & Gods 2">
+            <option value="Vikings Go Berzerk">
+            <option value="Vikings Go Wild">
+            <option value="Vikings Gods Lines">
+            <option value="Vikings To Hell">
+            <option value="Vikings Unleashed Megaways">
+            <option value="Vintage Win">
+            <option value="Vip Riches">
+            <option value="Volatile Vikings">
+            <option value="Volcano Riches">
+            <option value="Voodoo">
+            <option value="Voodoo Candy Shop">
+            <option value="Voodoo Dice">
+            <option value="Voodoo Gold">
+            <option value="Voodoo Magic">
+            <option value="Wacky Monsters">
+            <option value="Wacky Wildlife">
+            <option value="Wai Kiki">
+            <option value="Wall Street">
+            <option value="Wandering City ">
+            <option value="Wanted Dead Or A Wild">
+            <option value="Warlock'S Book">
+            <option value="Warlords of Power">
+            <option value="Warp Wreckers Power Glyph">
+            <option value="Warrior Graveyard">
+            <option value="Warrior Ways">
+            <option value="Wealth of Monkeys">
+            <option value="Weekend In Vegas">
+            <option value="Welcome To Hell 81">
+            <option value="Well of Wishes">
+            <option value="Western Gold Megaways">
+            <option value="Western Jack">
+            <option value="What A Hoot">
+            <option value="Wheel of Luck">
+            <option value="Wheel of Wishes">
+            <option value="Wheel of Wonders">
+            <option value="White Rabbit Megaways">
+            <option value="Who'S the Bride">
+            <option value="Whospunit Plus">
+            <option value="Wicked Circus">
+            <option value="Wild 3000">
+            <option value="Wild Ape">
+            <option value="Wild Bazaar">
+            <option value="Wild Beach Party">
+            <option value="Wild Bells">
+            <option value="Wild Blood">
+            <option value="Wild Blood 2">
+            <option value="Wild Booster">
+            <option value="Wild Cats Multiline">
+            <option value="Wild Cauldron">
+            <option value="Wild Chapo">
+            <option value="Wild Chapo Dream Drop">
+            <option value="Wild Cherries">
+            <option value="Wild Circus">
+            <option value="Wild Depths">
+            <option value="Wild Diamond">
+            <option value="Wild Dolphin">
+            <option value="Wild Donuts">
+            <option value="Wild Duel">
+            <option value="Wild Easter">
+            <option value="Wild Elements">
+            <option value="Wild Energy">
+            <option value="Wild Falls">
+            <option value="Wild Fight">
+            <option value="Wild Frames">
+            <option value="Wild Fruits">
+            <option value="Wild Girls">
+            <option value="Wild Gladiators">
+            <option value="Wild Guns">
+            <option value="Wild Heist">
+            <option value="Wild Heist At Peacock Manor">
+            <option value="Wild Hop & Drop">
+            <option value="Wild Jack ">
+            <option value="Wild Jack ">
+            <option value="Wild Jack 81">
+            <option value="Wild Jester">
+            <option value="Wild Joker Stacks">
+            <option value="Wild Krakatoa">
+            <option value="Wild Luchador">
+            <option value="Wild Marmalade">
+            <option value="Wild Melon">
+            <option value="Wild Neon">
+            <option value="Wild Nords">
+            <option value="Wild North">
+            <option value="Wild Ocean">
+            <option value="Wild One">
+            <option value="Wild Orient">
+            <option value="Wild Pearl">
+            <option value="Wild Pixies">
+            <option value="Wild Pride">
+            <option value="Wild Princess">
+            <option value="Wild Rails">
+            <option value="Wild Rapa Nui">
+            <option value="Wild Robo Factory">
+            <option value="Wild Santa">
+            <option value="Wild Scarabs">
+            <option value="Wild Seas">
+            <option value="Wild Sierra">
+            <option value="Wild Spartans">
+            <option value="Wild Spells">
+            <option value="Wild Sumo">
+            <option value="Wild Swarm">
+            <option value="Wild the Woods">
+            <option value="Wild Tome of the Woods">
+            <option value="Wild Toro">
+            <option value="Wild Train Heist">
+            <option value="Wild Trigger">
+            <option value="Wild Walker">
+            <option value="Wild Water">
+            <option value="Wild Weather">
+            <option value="Wild West Gold">
+            <option value="Wild West Gold Megaways">
+            <option value="Wild Wheel">
+            <option value="Wild Wild Bananas">
+            <option value="Wild Wild Chest">
+            <option value="Wild Wild Riches">
+            <option value="Wild Wild Richies Megaways">
+            <option value="Wild Wild Spin">
+            <option value="Wild Worlds">
+            <option value="Wildchemy">
+            <option value="Wilderland">
+            <option value="Wildhound Derby">
+            <option value="Wilhelm Tell">
+            <option value="Win & Replay">
+            <option value="Win A Beest">
+            <option value="Win Dim Sum">
+            <option value="Win Escalator">
+            <option value="Win the World">
+            <option value="Win Win Win">
+            <option value="Wings of Ra">
+            <option value="Wings of Riches">
+            <option value="Winner'S Winner'S Cup">
+            <option value="Wins of Fortune">
+            <option value="Winter Wonders">
+            <option value="Winterberries">
+            <option value="Wish List">
+            <option value="Wisps">
+            <option value="Witchcraft Academy">
+            <option value="Witches Wild Brew">
+            <option value="Wixx">
+            <option value="Wizard of Gems">
+            <option value="Wizard Shop">
+            <option value="Wolf Canyon Hold And Win">
+            <option value="Wolf Cub">
+            <option value="Wolf Gold">
+            <option value="Wolf Hunt">
+            <option value="Wolf Hunters">
+            <option value="Wolf Legend Megaways">
+            <option value="Wolf Moon Rising">
+            <option value="Wolf Night Hold And Win">
+            <option value="Wolf Power Megaways">
+            <option value="Wolf Quest">
+            <option value="Wolf Saga">
+            <option value="Wonder Woods">
+            <option value="Wonders Ancient World">
+            <option value="Wonders of Egypt">
+            <option value="Word of Thoth">
+            <option value="Wukong Hold And Win">
+            <option value="Wunderfest">
+            <option value="Wunderfest Deluxe">
+            <option value="Xi You Mario">
+            <option value="Xian">
+            <option value="Xmas 3X3">
+            <option value="Xmas Magic">
+            <option value="Xpander">
+            <option value="Xways Hoarder Xsplit">
+            <option value="xWays Hoarder xSplit">
+            <option value="Yak & Roll">
+            <option value="Yakuza">
+            <option value="Year of Luck">
+            <option value="Year the Monkey">
+            <option value="Year the Rat">
+            <option value="Ying Cai Shen">
+            <option value="Yokozuna Clash">
+            <option value="Yule Be Rich">
+            <option value="Yum Yum Powerways">
+            <option value="Zeus Thunder Reels">
+            <option value="Zombie">
+            <option value="Zombie Apopalypse">
+            <option value="Zombie Carnival">
+            <option value="Zombie Circus">
+            <option value="Zombie Slot Mania">
+            <option value="Zz Top Roadside Riches"> 
+            <option value="Sweet Bonanza Dice">
+            <option value="Saray Ruyasi">
+
+    </datalist>
+
+    <script defer src="script.js"></script>
+</body>
+
+</html>
